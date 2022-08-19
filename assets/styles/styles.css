@@ -95,11 +95,11 @@ header div {
 
 /* navigation bar */
 nav {
-     position: sticky;
- position: -webkit-sticky;
+  /*   position: sticky;
+    position: -webkit-sticky;
     width: 100%;
+    top: 0; */
     height: 4vw;
-    top: 0;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -256,6 +256,7 @@ main>div {
     justify-content: center;
     align-items: center;
     font-size: 1.4vw;
+    color: seagreen;
 }
 
 #works>div {
@@ -264,7 +265,7 @@ main>div {
 }
 
 #work_cont1 {
-    width: 50%;
+    width: 40%;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -272,18 +273,21 @@ main>div {
 }
 
 #work_cont1 img {
-    width: 50%;
+    width: 62%;
     border-radius: 5vw;
 }
 
 #work_cont2 {
-    width: 40%;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
 }
 
+#work_cont2 h2{
+    text-decoration: underline;
+}
 /* section - explore by job catgeories */
 #explore {
     width: 100%;
@@ -327,7 +331,7 @@ main>div {
 #search {
     color: seagreen;
     width: 100%;
-    height: 20vw;
+    height: 17vw;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -340,12 +344,13 @@ main>div {
 }
 
 #search h2 {
-    font-size: 3vw;
+    font-size: 4vw;
+    font-weight: 800;
 }
 
 #search_info {
     width: 50%;
-    height: 15%;
+    height: 25%;
     border: thin solid;
     display: flex;
     flex-direction: row;
@@ -367,6 +372,7 @@ main>div {
 #search_info>span>input {
     width: 100%;
     height: 100%;
+    font-size: 1.8vw;
     background-color: transparent;
     border: none;
     display: flex;
