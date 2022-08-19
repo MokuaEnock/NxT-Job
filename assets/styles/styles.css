@@ -95,20 +95,39 @@ header div {
 
 /* navigation bar */
 nav {
+     position: sticky;
+ position: -webkit-sticky;
     width: 100%;
     height: 4vw;
-    background-color: rgb(46, 139, 87, .1);
-    position: sticky;
-    position: -webkit-sticky;
     top: 0;
-    background-attachment: local;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-
 }
 
+nav>div {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(255, 255, 255, .5);
+}
+
+nav a {
+    color: seagreen;
+    width: 15%;
+    height: 100%;
+    background-color: rgb(46, 139, 87, .1);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 2vw;
+    border-radius: .5vw;
+}
 
 /* main */
 main {
