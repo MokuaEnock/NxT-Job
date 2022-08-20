@@ -95,10 +95,10 @@ header div {
 
 /* navigation bar */
 nav {
-  /*   position: sticky;
+    position: sticky;
     position: -webkit-sticky;
     width: 100%;
-    top: 0; */
+    top: 0;
     height: 4vw;
     display: flex;
     flex-direction: row;
@@ -113,7 +113,7 @@ nav>div {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    background-color: rgb(255, 255, 255, .5);
+    background-color: rgb(255, 255, 255, .8);
 }
 
 nav a {
