@@ -252,17 +252,27 @@ main > div {
 }
 
 #login > form {
-  width: 35%;
+  width: 100%;
   height: 78%;
+  border-radius: 1vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#loginForm > div {
+  width: 35%;
+  height: 100%;
   border: thin solid #1b4d3e;
   border-radius: 1vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  box-shadow: 0.002vw 0.0002vw .6vw grey;
 }
-
-#loginForm > input {
+#loginForm > div > input {
   width: 85%;
   height: 10%;
   border-radius: 3vw;
@@ -272,7 +282,20 @@ main > div {
   font-weight: 200;
 }
 
-#loginForm > button {
+#loginForm > div > button {
+  height: 12%;
+  width: 80%;
+  font-size: 2.5vw;
+  font-weight: 500;
+  border: double 1vw #e9ffdb;
+  background-color: white;
+  font-family: "Source Code Pro", monospace;
+  color: #1b4d3e;
+  border-radius: 3vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 /* section 1 -  Partners*/
 #partners {
