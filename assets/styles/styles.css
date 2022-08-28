@@ -1,13 +1,10 @@
-html {
-  font-family: "Source Code Pro", monospace;
-}
-
 body {
   color: #1b4d3e;
 }
 * {
   padding: 0;
   margin: 0;
+  font-family: "Source Code Pro", monospace;
 }
 
 a {
@@ -146,99 +143,6 @@ main > div {
   height: 100%;
 }
 
-#m_cont2 {
-  width: 43%;
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
-  align-items: flex-start;
-}
-
-#m_cont2 > div {
-  width: 66%;
-  height: fit-content;
-}
-
-#f_image1 > img {
-  width: 125%;
-  border-radius: 5vw;
-  margin-left: 3%;
-}
-
-#m_cont1 {
-  width: 60%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-
-#m_cont1_b {
-  width: 100%;
-  height: 11%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-#m_cont1_b button {
-  font-size: 2vw;
-  border-radius: 1vw;
-}
-
-#m_cont1_b1 {
-  height: 100%;
-  width: 30%;
-  color: seagreen;
-  font-weight: 600;
-  border: none;
-}
-
-#m_cont1_b2 {
-  height: 90%;
-  width: 25%;
-  font-weight: 400;
-  border: 0.4vw double white;
-  background-color: transparent;
-  color: white;
-}
-
-#m_cont_info {
-  border-top-right-radius: 1vw;
-  width: 100%;
-  height: 30%;
-  background-color: white;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-#m_cont_info div {
-  width: 29%;
-  height: 90%;
-  border-left: 1vw solid #2e8a56;
-  background-color: rgba(46, 139, 87, 0.102);
-  border-top-right-radius: 0.5vw;
-  border-bottom-right-radius: 0.5vw;
-  font-size: 2vw;
-  font-weight: 600;
-  color: seagreen;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: space-between;
-}
-
-#m_cont1 h1 {
-  font-size: 4vw;
-  font-weight: 600;
-  line-height: 6vw;
-  margin-top: 2%;
-  color: white;
-  margin-left: 5%;
-}
 /* login */
 #login {
   width: 100%;
@@ -263,6 +167,7 @@ main > div {
 
 #loginForm > div {
   width: 35%;
+  font-size: 3vw;
   height: 100%;
   border: thin solid #1b4d3e;
   border-radius: 1vw;
@@ -270,7 +175,7 @@ main > div {
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  box-shadow: 0.002vw 0.0002vw .6vw grey;
+  box-shadow: 0.002vw 0.0002vw 0.6vw grey;
 }
 #loginForm > div > input {
   width: 85%;
@@ -309,47 +214,24 @@ main > div {
 }
 
 /* section 2 - how it works */
-#works {
+#services {
   width: 100%;
-  height: 37vw;
+  height: 8vw;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.4vw;
-  color: seagreen;
-}
-
-#works > div {
-  height: 100%;
-  border: thin solid;
-}
-
-#work_cont1 {
-  width: 40%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-#work_cont1 img {
-  width: 62%;
-  border-radius: 5vw;
-}
-
-#work_cont2 {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  background-color: white;
 }
-
-#work_cont2 h2 {
-  text-decoration: underline;
+#services > button {
+  width: 30%;
+  height: 95%;
+  background-color: #e9ffdb;
+  border: none;
+  color: #1b4d3e;
+  font-size: 3.7vw;
+  font-weight: 600;
 }
-
 /* section - explore by job catgeories */
 #explore {
   width: 100%;
