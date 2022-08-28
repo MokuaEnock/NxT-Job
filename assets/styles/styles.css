@@ -1,7 +1,10 @@
 html {
-  font-family: "Rubik", sans-serif;
+  font-family: "Source Code Pro", monospace;
 }
 
+body {
+  color: #1b4d3e;
+}
 * {
   padding: 0;
   margin: 0;
@@ -236,10 +239,10 @@ main > div {
   color: white;
   margin-left: 5%;
 }
-/* logn */
+/* login */
 #login {
   width: 100%;
-  height: 53vw;
+  height: 55vw;
   background-color: #e9ffdb;
   color: #1b4d3e;
   display: flex;
@@ -252,6 +255,24 @@ main > div {
   width: 35%;
   height: 78%;
   border: thin solid #1b4d3e;
+  border-radius: 1vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#loginForm > input {
+  width: 85%;
+  height: 10%;
+  border-radius: 3vw;
+  border: thin solid #1b4d3e;
+  text-align: center;
+  font-size: 1.8vw;
+  font-weight: 200;
+}
+
+#loginForm > button {
 }
 /* section 1 -  Partners*/
 #partners {
