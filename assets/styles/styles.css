@@ -113,19 +113,21 @@ nav > div {
   justify-content: space-evenly;
   align-items: center;
   background-color: rgb(255, 255, 255, 0.8);
+  border-radius: 0.5vw;
 }
 
 nav a {
   color: #1b4d3e;
+  font-weight: 600;
   width: 15%;
   height: 100%;
-  background-color: rgb(46, 139, 87, 0.1);
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   font-size: 2vw;
   border-radius: 0.5vw;
+  background-color: #e9ffdb;
 }
 
 /* ===================main================================= */
@@ -147,11 +149,30 @@ main > div {
   width: 45%;
   font-size: 2.5vw;
   border: thin solid #e9ffdb;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
-#m_cont1>h2{
+#m_cont1 > h2 {
   text-align: center;
-  margin-top: 2%;
+  line-height: 5vw;
+}
+
+#m_cont1 > button {
+  width: 45%;
+  height: 12%;
+  color: #1b4d3e;
+  border: 0.5vw double #1b4d3e;
+  background-color: white;
+  font-size: 2.5vw;
+  font-weight: 600;
+  border-radius: 4vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
 #m_cont2 {
   width: 50%;
@@ -161,7 +182,7 @@ main > div {
   height: 100%;
 }
 
-/* login */
+/* ======================log in page=====================*/
 #login {
   width: 100%;
   height: 55vw;
@@ -187,7 +208,6 @@ main > div {
   width: 35%;
   font-size: 3vw;
   height: 100%;
-  border: thin solid #1b4d3e;
   border-radius: 1vw;
   display: flex;
   flex-direction: column;
@@ -220,18 +240,8 @@ main > div {
   align-items: center;
   justify-content: center;
 }
-/* section 1 -  Partners*/
-#partners {
-  width: 100%;
-  height: 10vw;
-  background-color: rgb(46, 139, 87, 0.2);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-}
 
-/* section 2 - how it works */
+/* ================= services ========================== */
 #services {
   width: 100%;
   height: 8vw;
@@ -243,52 +253,41 @@ main > div {
 }
 #services > button {
   width: 30%;
-  height: 95%;
-  background-color: #e9ffdb;
+  height: 100%;
+  background-color: #1b4d3e;
   border: none;
-  color: #1b4d3e;
+  color: #e9ffdb;
   font-size: 3.7vw;
   font-weight: 600;
 }
-/* section - explore by job catgeories */
+/* ===================explore job categories========================= */
 #explore {
   width: 100%;
-  height: 40vw;
+  height: 50vw;
   margin-top: 2%;
-  background-color: rgb(46, 139, 87, 0.2);
+  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
 }
 
-#explore h2 {
-  padding-left: 2%;
-  font-size: 3vw;
+#explore > h2 {
+  height: 10%;
+  font-size: 4vw;
+  margin-left: 3%;
   text-decoration: underline;
-  color: #1b4d3e;
 }
 
-#explore_cont {
-  width: 99.5%;
-  height: 95%;
-}
-
-#explore_cont {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 1vw;
-}
-
-#explore_cont div {
-  border-radius: 1vw;
-  background-color: rgb(46, 139, 87, 0.3);
+#explore_cont{
+  height: 90%;
+  width: 100%;
   display: flex;
+  border: thin solid #1b4d3e;
   flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
+  justify-content: space-between;
+  align-items: flex-start;
 }
-
 /* search find and apply */
 #search {
   color: #1b4d3e;
