@@ -298,7 +298,6 @@ main > div {
   border: thin solid #1b4d3e;
 }
 
-
 /* =====================search find and apply======================== */
 #search {
   color: #1b4d3e;
@@ -329,7 +328,6 @@ main > div {
   align-items: center;
   border-radius: 5vw;
   background-color: white;
-
 }
 
 #search_info > span {
@@ -382,7 +380,7 @@ main > div {
   background-color: white;
 }
 
-#results>div{
+#results > div {
   width: 100%;
   height: 50%;
   display: flex;
@@ -400,7 +398,7 @@ main > div {
   justify-content: space-evenly;
   align-items: center;
   background-color: #e9ffdb;
-  box-shadow: 0.002vw  0.002vw 1vw grey;
+  box-shadow: 0.002vw 0.002vw 1vw grey;
 }
 
 .category_card_header {
@@ -437,9 +435,9 @@ main > div {
   align-items: center;
 }
 
-.job_desc_title{
-font-size: 2vw;
-font-weight: 600;
+.job_desc_title {
+  font-size: 2vw;
+  font-weight: 600;
 }
 
 .category_card_body {
@@ -451,7 +449,7 @@ font-weight: 600;
   align-items: center;
 }
 
-.body_job_desc{
+.body_job_desc {
   height: 70%;
   width: 95%;
   font-size: 1.6vw;
@@ -460,10 +458,9 @@ font-weight: 600;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-
 }
 
-.body_job_info{
+.body_job_info {
   width: 100%;
   height: 30%;
   display: flex;
@@ -472,7 +469,7 @@ font-weight: 600;
   align-items: center;
 }
 
-.body_job_info_span{
+.body_job_info_span {
   height: 70%;
   width: 30%;
   background-color: white;
@@ -495,7 +492,7 @@ font-weight: 600;
   align-items: center;
 }
 
-.view_more_job{
+.view_more_job {
   width: 50%;
   height: 90%;
   border: none;
@@ -510,7 +507,7 @@ font-weight: 600;
   align-items: center;
 }
 
-.save_job{
+.save_job {
   width: 20%;
   height: 100%;
   border: none;
@@ -520,10 +517,40 @@ font-weight: 600;
   justify-content: center;
   align-items: center;
 }
-.save_job>img{
+.save_job > img {
   height: 60%;
 }
 
+/* ====================courses==================== */
+
+#courses {
+  width: 100%;
+  height: 70vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#courses > h2 {
+  height: 5%;
+  width: 100%;
+  text-align: left;
+  margin-left: 4%;
+  font-size: 4vw;
+  text-decoration: underline;
+}
+
+#courses_cont {
+  width: 100%;
+  height: 93%;
+}
+
+#courses_cont>div{
+  width: 100%;
+  height: 50%;
+  border: thin solid;
+}
 /* footer */
 footer {
   width: 100%;
