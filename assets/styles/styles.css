@@ -295,7 +295,6 @@ main > div {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  border: thin solid #1b4d3e;
 }
 
 .explore_job_card {
@@ -310,7 +309,6 @@ main > div {
   box-shadow: 0.02vw 0.02vw 1vw grey;
 
 }
-
 
 .explore_job_card_image {
   height: 45%;
