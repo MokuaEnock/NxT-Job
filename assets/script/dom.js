@@ -38,16 +38,6 @@ function load() {
   courses.style.display = "none";
   services.style.display = "none";
 }
-/* function toLogin() {
-  header.style.display = "none";
-  nav.style.display = "none";
-  main.style.display = "none";
-  services.style.display = "none";
-  footer.style.display = "none";
-  login.style.display = "block";
-}
-catalogueButton.addEventListener("click", toLogin);
-*/
 
 function toServices() {
   services.style.display = "flex";
