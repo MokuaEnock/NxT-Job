@@ -8,6 +8,7 @@ let main = document.querySelector("main");
 let nav = document.querySelector("nav");
 let services = document.querySelector("#services");
 let footer = document.querySelector("footer");
+let searchCourse = document.querySelector('#searchCourse')
 
 /* ===============main page buttons===================== */
 let catalogueButton = document.querySelector("#catalogue");
@@ -26,7 +27,7 @@ function displayFullTime() {
 
 function displayLesson() {
   courses.style.display = "flex";
-  search.style.display = "flex";
+  searchCourse.style.display = "flex";
   exploreJob.style.display = "none";
 }
 
@@ -37,6 +38,7 @@ function load() {
   results.style.display = "none";
   courses.style.display = "none";
   services.style.display = "none";
+  searchCourse.style.display = "none";
 }
 
 function toServices() {
