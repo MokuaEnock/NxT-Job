@@ -415,7 +415,7 @@ main > div {
 }
 
 #search_info > span {
-  width: 35%;
+  width: 70%;
   height: 90%;
   border-right: thin solid grey;
   display: flex;

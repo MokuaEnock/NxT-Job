@@ -8,7 +8,7 @@ let main = document.querySelector("main");
 let nav = document.querySelector("nav");
 let services = document.querySelector("#services");
 let footer = document.querySelector("footer");
-let searchCourse = document.querySelector('#searchCourse')
+let searchCourse = document.querySelector("#searchCourse");
 
 /* ===============main page buttons===================== */
 let catalogueButton = document.querySelector("#catalogue");
@@ -19,12 +19,19 @@ let shortTime = document.querySelector("#short-time");
 let lesson = document.querySelector("#lesson");
 let servicesButtons = document.querySelectorAll("#services>button");
 
+/* ==================search find and apply buttons================== */
+let applySubmit = document.querySelector("#applySubmit");
+
+function submitApply() {
+  search.style.display = "flex";
+  results.style.display = "flex";
+  
+}
 function displayFullTime() {
   exploreJob.style.display = "flex";
   search.style.display = "flex";
   courses.style.display = "none";
   searchCourse.style.display = "none";
-
 }
 
 function displayLesson() {
