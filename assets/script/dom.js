@@ -6,11 +6,29 @@ let courses = document.querySelector("#courses");
 let header = document.querySelector("header");
 let main = document.querySelector("main");
 let nav = document.querySelector("nav");
-let services = document.querySelector('#services')
-let footer = document.querySelector('footer')
+let services = document.querySelector("#services");
+let footer = document.querySelector("footer");
 
 /* ===============main page buttons===================== */
 let catalogueButton = document.querySelector("#catalogue");
+
+/* ================services section buttons=============================== */
+let fullTime = document.querySelector("#full-time");
+let shortTime = document.querySelector("#short-time");
+let lesson = document.querySelector("#lesson");
+let servicesButtons = document.querySelectorAll("#services>button");
+
+function displayFullTime() {
+  exploreJob.style.display = "flex";
+  search.style.display = "flex";
+  courses.style.display = "none";
+}
+
+function displayLesson() {
+  courses.style.display = "flex";
+  search.style.display = "flex";
+  exploreJob.style.display = "none";
+}
 
 function load() {
   login.style.display = "none";
@@ -18,8 +36,9 @@ function load() {
   search.style.display = "none";
   results.style.display = "none";
   courses.style.display = "none";
+  services.style.display = "none";
 }
-function toLogin() {
+/* function toLogin() {
   header.style.display = "none";
   nav.style.display = "none";
   main.style.display = "none";
@@ -27,6 +46,14 @@ function toLogin() {
   footer.style.display = "none";
   login.style.display = "block";
 }
-
 catalogueButton.addEventListener("click", toLogin);
+*/
+
+function toServices() {
+  services.style.display = "flex";
+}
+
+lesson.addEventListener("click", displayLesson);
+fullTime.addEventListener("click", displayFullTime);
+catalogueButton.addEventListener("click", toServices);
 document.addEventListener("DOMContentLoaded", load);
