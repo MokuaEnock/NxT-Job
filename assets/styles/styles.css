@@ -194,9 +194,9 @@ main > div {
   justify-content: center;
 }
 
-#login > form {
+#login > div {
   width: 100%;
-  height: 78%;
+  height: 65%;
   border-radius: 1vw;
   display: flex;
   flex-direction: row;
@@ -204,8 +204,8 @@ main > div {
   justify-content: space-evenly;
 }
 
-#loginForm > div {
-  width: 35%;
+#loginForm > form {
+  width: 30%;
   font-size: 3vw;
   height: 100%;
   border-radius: 1vw;
@@ -215,7 +215,7 @@ main > div {
   justify-content: space-evenly;
   box-shadow: 0.002vw 0.0002vw 0.6vw grey;
 }
-#loginForm > div > input {
+#loginForm > form > input {
   width: 85%;
   height: 10%;
   border-radius: 3vw;
@@ -225,7 +225,7 @@ main > div {
   font-weight: 200;
 }
 
-#loginForm > div > button {
+#loginForm > form > button {
   height: 12%;
   width: 80%;
   font-size: 2.5vw;
