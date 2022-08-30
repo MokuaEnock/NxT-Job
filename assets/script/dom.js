@@ -23,6 +23,8 @@ function displayFullTime() {
   exploreJob.style.display = "flex";
   search.style.display = "flex";
   courses.style.display = "none";
+  searchCourse.style.display = "none";
+
 }
 
 function displayLesson() {
