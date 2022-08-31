@@ -417,7 +417,6 @@ main > div {
 #search_info > span {
   width: 70%;
   height: 90%;
-  border-right: thin solid grey;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -460,10 +459,9 @@ main > div {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-
 }
 
-.learnMore>div{
+.learnMore > div {
   height: 100%;
   border: thin solid;
   display: flex;
@@ -472,34 +470,77 @@ main > div {
   align-items: center;
 }
 
-.learnMore_cont1{
+.learnMore_cont1 {
   width: 33%;
 }
 
-.learnMore_cont1_1{
- width: 100%;
- height: 50%;
- color: #e9ffdb;
- font-size: 4.5vw;
- text-align: center;
- font-weight: 800;
- background-image: url(https://github.com/MokuaEnock/NxT-Job/blob/master/assets/images/websecurity.jpg?raw=true);
-background-position: center;
-background-size: cover;
- border: thin solid;
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
-
-}
-
-.learnMore_cont1_2{
+.learnMore_cont1_1 {
   width: 100%;
   height: 50%;
+  color: #1b4d3e;
+  font-size: 4.5vw;
+  text-align: center;
+  font-weight: 800;
+  /* background-image: url(https://github.com/MokuaEnock/NxT-Job/blob/master/assets/images/websecurity.jpg?raw=true); */
+  background-position: center;
+  background-size: cover;
+  border: thin solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.learnMore_cont2{
+
+.learnMore_cont1_2 {
+  width: 95%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: left;
+}
+
+.learnMore_cont1_2 > h3 {
+  font-weight: 400;
+  font-size: 2vw;
+}
+.learnMore_cont2 {
   width: 64%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: left;
+}
+
+/* .learnMore_cont2>div{
+  border: thin solid #1b4d3e;
+  width: 100%;
+} */
+
+.learnMore_cont2_desc {
+  height: 80%;
+  width: 96%;
+  border: thin solid;
+  padding-top: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: left;
+}
+
+
+.learnMore_cont2_desc {
+  font-size: 2vw;
+}
+.learnMore_cont2_info {
+  height: 20%;
+  width: 100%;
+  border: thin solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
 }
 /* =====================search find and apply======================== */
 #searchCourse {
@@ -537,7 +578,6 @@ background-size: cover;
 #searchCourse_info > span {
   width: 70%;
   height: 90%;
-  border-right: thin solid grey;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
