@@ -10,6 +10,13 @@ function domManipulate() {
   resultsTitle.style.display = "none";
 }
 
+function displayExplore() {
+  if (explore.style.display === "none") {
+    explore.style.display = "flex";
+  } else {
+    explore.style.display = "none"
+  }
+}
 
 /* Adzuna jobs */
 /* function createCard(array) {
@@ -156,5 +163,3 @@ jobForm.addEventListener("submit", (e) => {
     });
   jobForm.reset();
 });
-
-document.addEventListener("DOMContentLoaded", domManipulate);
