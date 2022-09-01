@@ -46,7 +46,7 @@ jobForm.addEventListener("submit", (e) => {
   jobForm.reset();
 }); */
 
-url = "http://localhost:3000/job";
+/* url = "http://localhost:3000/job";
 let jobForm = document.querySelector("#search_info");
 jobForm.addEventListener("submit", (e) => {
   e.preventDefault();
@@ -59,7 +59,7 @@ jobForm.addEventListener("submit", (e) => {
       data.forEach((element) => {
         let jobCard = document.createElement("div");
         jobCard.className = "category_card";
-        /* card header */
+        // card header
         let jobCardHeader = document.createElement("div");
         jobCardHeader.className = "category_card_header_info";
         let jobCardHeaderTitle = document.createElement("div");
@@ -71,14 +71,14 @@ jobForm.addEventListener("submit", (e) => {
         jobCardHeader.appendChild(jobCardHeaderTitle);
         jobCardHeader.append(jobCardHeaderdesc);
         jobCard.append(jobCardHeader);
-        /* card description */
+        // card description
         let jobCardBody = document.createElement("p");
         jobCardBody.className = "body_job_desc";
         jobCardBody.innerHTML = element.description;
         jobCardBody.style.overflow = "hidden";
         jobCard.append(jobCardBody);
 
-        /* small body  */
+        // small body
         let jobCardSmallBody = document.createElement("div");
         jobCardSmallBody.className = "body_job_info";
         let jobCardSpan1 = document.createElement("span");
@@ -95,7 +95,7 @@ jobForm.addEventListener("submit", (e) => {
         jobCardSmallBody.append(jobCardSpan3);
         jobCard.append(jobCardSmallBody);
 
-        /* card footer */
+        //card footer
         let button1 = document.createElement("button");
         button1.className = "view_more_job";
         button1.innerHTML = "Learn More";
@@ -109,20 +109,10 @@ jobForm.addEventListener("submit", (e) => {
         foot.appendChild(button1);
         foot.append(button2);
         jobCard.append(foot);
-        /* append card */
+        // append card
         let results = document.querySelector("#results_2");
         results.appendChild(jobCard);
       });
     });
 });
-
-/* let jobCard = document.createElement("div");
-        jobCard.className = "category_card";
-        let jobCardHeader = document.createElement("div");
-        let jobCardHeaderTitle = document.createElement('div')
-        jobCardHeaderTitle.className = "job_desc_title"
-        let jobCardHeaderdesc = document.createElement('div')
-        jobCardHeaderdesc.className = "company_desc_name"
-        jobCardHeader.appendChild(jobCardHeaderTitle, jobCardHeaderdesc)
-        jobCardHeader.className = "category_card_header_info";
-        jobCard.appendChild(jobCardHeader); */
+ */
