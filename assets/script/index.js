@@ -43,7 +43,7 @@ function exploreCategory1() {
   }
 }
 
-function exploreCategory2(){
+function exploreCategory2() {
   if (exploreJobCard3.style.display == "flex") {
     exploreJobCard1.style.display = "none";
     exploreJobCard2.style.display = "flex";
@@ -53,6 +53,41 @@ function exploreCategory2(){
     exploreJobCard1.style.display = "flex";
     exploreJobCard3.style.display = "flex";
     exploreContainer2.style.display = "flex";
+  }
+}
+
+function exploreCategory3() {
+  if (exploreJobCard1.style.display == "flex") {
+    exploreJobCard1.style.display = "none";
+    exploreJobCard2.style.display = "none";
+    exploreJobCard3.style.display = "flex";
+    exploreContainer2.style.display = "none";
+  } else {
+    exploreJobCard1.style.display = "flex";
+    exploreJobCard2.style.display = "flex";
+    exploreContainer2.style.display = "flex";
+  }
+}
+
+function exploreCategory4() {
+  if (exploreJobCard5.style.display == "flex") {
+    exploreJobCard4.style.display = "flex";
+    exploreJobCard5.style.display = "none";
+    exploreContainer1.style.display = "none";
+  } else {
+    exploreJobCard5.style.display = "flex";
+    exploreContainer1.style.display = "flex";
+  }
+}
+
+function exploreCategory5() {
+  if (exploreJobCard4.style.display == "flex") {
+    exploreJobCard4.style.display = "none";
+    exploreJobCard5.style.display = "flex";
+    exploreContainer1.style.display = "none";
+  } else {
+    exploreJobCard4.style.display = "flex";
+    exploreContainer1.style.display = "flex";
   }
 }
 /* Adzuna jobs */

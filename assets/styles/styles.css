@@ -309,6 +309,7 @@ main > div {
   color: #1b4d3e;
   font-size: 2vw;
   border: 1vw;
+  cursor: pointer;
 }
 
 /* =====================job results title==================== */
