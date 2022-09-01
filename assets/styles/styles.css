@@ -797,6 +797,7 @@ main > div {
   position: fixed;
   overflow: auto;
   border: #1b4d3e thin solid;
+  top: 5%;
 }
 
 .modal_cont {
@@ -822,22 +823,90 @@ main > div {
   align-items: center;
   border-radius: inherit;
 }
+.modal_job_header_title {
+  width: 80%;
+  height: 90%;
+  font-size: 3vw;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 
-.modal_job_body {
+.close {
+  background-color: white;
+  width: 5%;
   height: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2vw;
+  font-size: 3vw;
+  font-weight: 800;
+}
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.modal_job_body {
+  height: 68%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+  text-align: center;
+}
+
+.modal_job_body_desc {
+  width: 70%;
+  height: 100%;
+  border: thin solid;
+  font-size: 1.7vw;
+  text-align: left;
+  line-height: 3vw;
+  word-spacing: 0.5vw;
+}
+
+.modal_job_body_info {
+  width: 27%;
+  height: 100%;
+  border: thin solid;
+}
+.modal_job_link {
+  text-decoration: none;
+  color: #1b4d3e;
+  width: 15%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #1b4d3e;
+}
+
+.modal_job_button {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border: thin solid #e9ffdb;
+  font-size: 3vw;
+  color: #1b4d3e;
+  font-weight: 600;
+  letter-spacing: .2vw;
 }
 .modal_job_footer {
-  height: 20%;
+  height: 12%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   border-radius: inherit;
   align-items: center;
 }
+
 /* Modal Content */
 .modal-content {
   background-color: #fefefe;
@@ -848,16 +917,9 @@ main > div {
 }
 
 /* The Close Button */
-.close {
+/* .close {
   color: #aaaaaa;
   float: right;
   font-size: 28px;
   font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-}
+} */
