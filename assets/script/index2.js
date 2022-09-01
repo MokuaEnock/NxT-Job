@@ -61,6 +61,7 @@ let mainPage = document.querySelector("main");
 let catalogue = document.querySelector("#catalogue");
 let explore = document.querySelector("#explore");
 let search = document.querySelector("#search");
+let jobForm = document.querySelector("#search_info");
 let exploreJobCard1 = document.querySelector("#explore_job_card1");
 let exploreJobCard2 = document.querySelector("#explore_job_card2");
 let exploreJobCard3 = document.querySelector("#explore_job_card3");
@@ -199,6 +200,25 @@ function domManipulate() {
       exploreContainer1.style.display = "flex";
     }
   }
+
+  jobForm.addEventListener("submit", (e) => {
+    e.preventDefault();
+    let jobValue = document.querySelector("#job_search_value");
+    let searchTerm = jobValue.value.split(" ");
+    let url = `https://api.adzuna.com/v1/api/jobs/us/search/1?app_id=d0291057&app_key=e45310af6518f33ea0f2617638ff1d7f&results_per_page=1000&what=${searchTerm[0]}%20${searchTerm[1]}`;
+    fetch(url)
+      .then((res) => res.json())
+      .then((data) => {
+        let exploreJob = document.querySelector("#explore");
+        exploreJob.style.display = "none";
+        let jobResults = data.results.reverse();
+        for (let i of jobResults) {
+          createCardArray(i);
+        }
+        console.log(jobResults);
+      });
+    jobForm.reset();
+  });
 
   exploreJobCardAll1.addEventListener("click", exploreCategory1);
   exploreJobCardAll2.addEventListener("click", exploreCategory2);
