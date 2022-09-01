@@ -25,7 +25,6 @@ let applySubmit = document.querySelector("#applySubmit");
 function submitApply() {
   search.style.display = "flex";
   results.style.display = "flex";
-  
 }
 function displayFullTime() {
   exploreJob.style.display = "flex";
@@ -58,3 +57,13 @@ lesson.addEventListener("click", displayLesson);
 fullTime.addEventListener("click", displayFullTime);
 catalogueButton.addEventListener("click", toServices);
 document.addEventListener("DOMContentLoaded", load);
+
+/*
+indeed job
+
+let clientId = 6a02512d728ec1501d71e18855264a600ffb33f24d2f6d285dff88a2571c52bc
+
+let client_secret = "RJJyQHPWWNt1JnLHqnkUCa6xnej5rHsRD4SrxCnJooXgkvSFWwe0POdBNbOdqfse"
+
+
+*/

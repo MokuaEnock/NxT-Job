@@ -1,0 +1,1387 @@
+[
+  {
+    "contract_time": "full_time",
+    "longitude": -73.753551,
+    "salary_min": 264000,
+    "latitude": 42.647651,
+    "contract_type": "permanent",
+    "location": {
+      "display_name": "Rensselaer, Rensselaer County",
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "area": ["US", "New York", "Rensselaer County", "Rensselaer"]
+    },
+    "description": "Executive Vice President As the Executive Vice President (EVP) of Aumentum Technologies - Property Tax Valuation & Recording Solutions Software , you will be responsible for setting the strategic direction and leading the growth and execution of the business across all functional areas. Above all, you will be a mentor of people and a trusted partner for our customers This is a remote or in office opportunity. Functional areas of the business are sales, support, product development, and professi…",
+    "id": "3433525113",
+    "created": "2022-08-25T23:11:12Z",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzQzMzUyNTExMyIsInMiOiIxdl9PXzZZcDdSRzU0Uy05WkdyMW13In0.WBW9zoJA-gyBNcVUoOZZUXmicPMkIm1pyoF1CPZwyXg",
+    "redirect_url": "https://www.adzuna.com/land/ad/3433525113?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=DEF05D64254B34ED8AF44079F5AD640F37616E50",
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "Manatron, Inc."
+    },
+    "salary_max": 264000,
+    "category": {
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "tag": "sales-jobs",
+      "label": "Sales Jobs"
+    },
+    "title": "Executive Vice President",
+    "salary_is_predicted": "0",
+    "__CLASS__": "Adzuna::API::Response::Job"
+  },
+  {
+    "location": {
+      "area": ["US", "California", "San Francisco"],
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "display_name": "San Francisco, California"
+    },
+    "description": "Welcome to Planet. We believe in using space to help life on Earth. Planet designs, builds, and operates the largest constellation of imaging satellites in history. This constellation delivers an unprecedented dataset of empirical information via a revolutionary cloud-based platform to authoritative figures in commercial, environmental, and humanitarian sectors. We are both a space company and data company all rolled into one. Customers and users across the globe use Planet's data to develop ne…",
+    "created": "2022-02-10T10:58:47Z",
+    "id": "2885666161",
+    "longitude": -122.466538,
+    "contract_time": "full_time",
+    "salary_min": 25000,
+    "latitude": 37.798085,
+    "title": "SDR Manager - Enterprise, USA",
+    "salary_is_predicted": "0",
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "redirect_url": "https://www.adzuna.com/land/ad/2885666161?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=A46108C60BCBB645A85F8585C644EE7F14517696",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjg4NTY2NjE2MSIsInMiOiIxdl9PXzZZcDdSRzU0Uy05WkdyMW13In0.cEPtMIJV41IS2LJmomcgPaKaA_a7c0BCV_P7N4tv7Xc",
+    "salary_max": 500000,
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "Planet"
+    },
+    "category": {
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "tag": "sales-jobs",
+      "label": "Sales Jobs"
+    }
+  },
+  {
+    "category": {
+      "label": "IT Jobs",
+      "tag": "it-jobs",
+      "__CLASS__": "Adzuna::API::Response::Category"
+    },
+    "salary_max": 325000,
+    "company": {
+      "display_name": "CyberCoders",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "latitude": 37.390494,
+    "salary_min": 200000,
+    "longitude": -121.885434,
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMXZfT182WXA3Ukc1NFMtOVpHcjFtdyIsImkiOiIzNDM2MjUzMDUzIn0.pXBRawSZ1xdu8dK4ClonS5Cl-OXi6MWlA1YA5BQtmSo",
+    "redirect_url": "https://www.adzuna.com/land/ad/3436253053?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=0A37DE0B60EABFC7ACF6604525858F7907ED7473",
+    "created": "2022-08-27T00:10:31Z",
+    "id": "3436253053",
+    "description": "Lead Software Engineer (Firmware/BMC software) If you are a Lead Software Engineer (Firmware/BMC software) with experience, please read on We are an AI-enhanced security processor company in the lovely city of San Jose, CA. At our company, developing great technology takes more than talent: it takes amazing people who understand collaboration, respect each other, and go the extra mile to achieve exceptional results. It takes people who have the passion and desire to disrupt the status quo, deli…",
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "salary_is_predicted": "0",
+    "location": {
+      "area": ["US", "California", "Santa Clara County", "San Jose"],
+      "display_name": "San Jose, Santa Clara County",
+      "__CLASS__": "Adzuna::API::Response::Location"
+    },
+    "title": "Lead Software Engineer (Firmware/BMC software)"
+  },
+  {
+    "salary_max": 300000,
+    "company": {
+      "display_name": "CyberCoders",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "salary_min": 225000,
+    "latitude": 37.390494,
+    "longitude": -121.885434,
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzQ0NTU0MjE3MiIsInMiOiIxdl9PXzZZcDdSRzU0Uy05WkdyMW13In0.VTWibFU0Y8CyVPiXi1M3RhLekMO4wy8aRWgXSJszsrE",
+    "redirect_url": "https://www.adzuna.com/land/ad/3445542172?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=8DE4E4A0581E089E3EFF6686561B48F315846481",
+    "category": {
+      "label": "IT Jobs",
+      "tag": "it-jobs",
+      "__CLASS__": "Adzuna::API::Response::Category"
+    },
+    "salary_is_predicted": "0",
+    "location": {
+      "area": ["US", "California", "Santa Clara County", "San Jose"],
+      "display_name": "San Jose, Santa Clara County",
+      "__CLASS__": "Adzuna::API::Response::Location"
+    },
+    "title": "Lead Machine Learning Engineer",
+    "created": "2022-08-31T00:12:18Z",
+    "id": "3445542172",
+    "description": "Lead Machine Learning Engineer If you are a Machine Learning Technical Lead with experience, please read on We are an AI-enhanced security processor company in the lovely city of San Jose, CA. At our company, developing great technology takes more than talent: it takes amazing people who understand collaboration, respect each other, and go the extra mile to achieve exceptional results. It takes people who have the passion and desire to disrupt the status quo, deliver innovation, and change the …",
+    "__CLASS__": "Adzuna::API::Response::Job"
+  },
+  {
+    "category": {
+      "label": "IT Jobs",
+      "tag": "it-jobs",
+      "__CLASS__": "Adzuna::API::Response::Category"
+    },
+    "salary_max": 300000,
+    "salary_min": 225000,
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "CyberCoders"
+    },
+    "latitude": 37.390494,
+    "longitude": -121.885434,
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMXZfT182WXA3Ukc1NFMtOVpHcjFtdyIsImkiOiIzNDM4NzcxMzU5In0.2AvQ7mlOLJSP5pTRjdmqoXThOaAK_ZmtkIygzQEPI2g",
+    "redirect_url": "https://www.adzuna.com/land/ad/3438771359?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=113E24B6165B33A78FA35452F5006161DE0FD96E",
+    "created": "2022-08-28T00:10:15Z",
+    "id": "3438771359",
+    "description": "Lead Software Engineer - Embedded Security If you are a Lead Software Engineer - Embedded Security with experience, please read on We are an AI-enhanced security processor company in the lovely city of San Jose, CA. At our company, developing great technology takes more than talent: it takes amazing people who understand collaboration, respect each other, and go the extra mile to achieve exceptional results. It takes people who have the passion and desire to disrupt the status quo, deliver inno…",
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "salary_is_predicted": "0",
+    "location": {
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "display_name": "San Jose, Santa Clara County",
+      "area": ["US", "California", "Santa Clara County", "San Jose"]
+    },
+    "title": "Lead Software Engineer - Embedded Security"
+  },
+  {
+    "id": "3409070177",
+    "created": "2022-08-16T16:55:08Z",
+    "description": "As a Senior Director, you will be responsible for driving technology strategy and software engineering that will further advance our Business Lines product portfolio and work cross-functionally to enable rapid delivery of the best pricing and underwriting in market. You will partner with business and technology leaders to drive product simplification, technology convergence and best-in-class countrywide rollout cadences. Putting people first, you will advance our culture of continuous improveme…",
+    "location": {
+      "area": ["US", "Massachusetts", "Suffolk County"],
+      "display_name": "Suffolk County, Massachusetts",
+      "__CLASS__": "Adzuna::API::Response::Location"
+    },
+    "salary_min": 225400,
+    "latitude": 42.348354,
+    "contract_time": "full_time",
+    "longitude": -71.073728,
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "salary_is_predicted": "0",
+    "title": "Senior Director, Technology - GRM US Business Lines Product & Underwriting Technology",
+    "category": {
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "tag": "it-jobs",
+      "label": "IT Jobs"
+    },
+    "company": {
+      "display_name": "Liberty Mutual",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "salary_max": 296600,
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMXZfT182WXA3Ukc1NFMtOVpHcjFtdyIsImkiOiIzNDA5MDcwMTc3In0.7MLG1_nQsqipPXeM5eqUKH7yj44mNzFvf4bMemu8vkQ",
+    "redirect_url": "https://www.adzuna.com/land/ad/3409070177?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=F7198EBFA0B184BBA23D6E03FABCA291A1FCF81B"
+  },
+  {
+    "contract_time": "full_time",
+    "longitude": -71.073728,
+    "salary_min": 225400,
+    "latitude": 42.348354,
+    "description": "As a Senior Director, you will be responsible for driving technology strategy and software engineering that will further advance our Personal Lines product portfolio and work cross-functionally to enable rapid delivery of the best pricing and underwriting in market. You will partner with business and technology leaders to drive product simplification, technology convergence and best-in-class countrywide rollout cadences. Putting people first, you will advance our culture of continuous improveme…",
+    "id": "3409070143",
+    "created": "2022-08-16T16:55:05Z",
+    "location": {
+      "display_name": "Suffolk County, Massachusetts",
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "area": ["US", "Massachusetts", "Suffolk County"]
+    },
+    "category": {
+      "tag": "it-jobs",
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "label": "IT Jobs"
+    },
+    "redirect_url": "https://www.adzuna.com/land/ad/3409070143?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=813894FDFCF46FA8D0D6FF059D71B2BE92E7568D",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMXZfT182WXA3Ukc1NFMtOVpHcjFtdyIsImkiOiIzNDA5MDcwMTQzIn0.4rTjbCVvWq9Auo-DuBg_Tz5k6Vnz4fvIBXff2BhprDo",
+    "company": {
+      "display_name": "Liberty Mutual",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "salary_max": 296600,
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "title": "Senior Director, Technology - GRM US Personal Lines Product & Underwriting Technology",
+    "salary_is_predicted": "0"
+  },
+  {
+    "category": {
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "tag": "it-jobs",
+      "label": "IT Jobs"
+    },
+    "redirect_url": "https://www.adzuna.com/land/ad/3431246460?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=B4CE170EA96A90B6BEF2188A901A7CB289F86168",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMXZfT182WXA3Ukc1NFMtOVpHcjFtdyIsImkiOiIzNDMxMjQ2NDYwIn0.6knPFZGHMzVTPwaKY_4dbeYVlUmljQBt8kBFK51wMJo",
+    "salary_max": 288000,
+    "company": {
+      "display_name": "Adroit Resources",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "salary_min": 230400,
+    "description": "Responsibilities: Become an essential part of a cross-functional team of accomplished engineers and architects Build software tools to empower our teams Help push the development of the engineering department as a whole forward Help lead the continued development of our overall platform Participate in architecture discussions with engineers from every team author, review, and approve technical designs Mastery of domain programming language Engineer extensible solutions with the team in mind and…",
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "created": "2022-08-25T02:54:49Z",
+    "id": "3431246460",
+    "title": "Front End Lead",
+    "salary_is_predicted": "0",
+    "location": {
+      "area": ["US"],
+      "display_name": "US",
+      "__CLASS__": "Adzuna::API::Response::Location"
+    }
+  },
+  {
+    "category": {
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "tag": "engineering-jobs",
+      "label": "Engineering Jobs"
+    },
+    "longitude": -121.953652,
+    "redirect_url": "https://www.adzuna.com/land/ad/3413377558?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=C9FB15E59E3D4234858E3F4615FEC21DDC626045",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzQxMzM3NzU1OCIsInMiOiIxdl9PXzZZcDdSRzU0Uy05WkdyMW13In0.KQzqN4xMZO8gV2hNl9E0f1O1l1LDys2DfskLJKxM9mQ",
+    "salary_max": 268800,
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "Adroit Resources"
+    },
+    "latitude": 37.396999,
+    "salary_min": 249600,
+    "description": "Responsibilities: Post-silicon validation engineers towards the productization of high-performance FPGAs in 7nm and below. His or her responsibilities will include the following: Working with leading-edge protocols, including PCIe Gen5, 400Gbps Ethernet, die-to-die communications and high-speed external memory interfaces like GDDR6, HBM and DDR5 Driving the bring-up, hardware validation and debug of new FPGA products; tracking the bringup and validation schedules through to completion Owning th…",
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "created": "2022-08-18T02:55:12Z",
+    "id": "3413377558",
+    "title": "Post Silicon Validation Engineer",
+    "salary_is_predicted": "0",
+    "location": {
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "display_name": "Holy, Santa Clara County",
+      "area": ["US", "California", "Santa Clara County", "Holy"]
+    }
+  },
+  {
+    "redirect_url": "https://www.adzuna.com/land/ad/3410573311?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=0FA772B338AA8882BB787EEC6C3E1BDE10B358D1",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzQxMDU3MzMxMSIsInMiOiIxdl9PXzZZcDdSRzU0Uy05WkdyMW13In0.UW0xg2FzWSsvSlDqKj_aMayGaC99PgDilrod1ILMH7s",
+    "salary_max": 250000,
+    "salary_min": 250000,
+    "company": {
+      "display_name": "National Grid",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "category": {
+      "label": "Engineering Jobs",
+      "tag": "engineering-jobs",
+      "__CLASS__": "Adzuna::API::Response::Category"
+    },
+    "title": "Manager, Software Engineering, PORT",
+    "salary_is_predicted": "0",
+    "location": {
+      "area": ["US", "New York", "New York City"],
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "display_name": "New York City, New York"
+    },
+    "description": "As part of National Grid's continued commitment to safety, all new hires must be fully vaccinated against COVID-19. Anyone unable to be vaccinated, either because of a sincerely held religious belief or medical reason can request a reasonable accommodation. About us Job Purpose A Senior Engineering Manager will have leadership duties for at most 4 squads, and may have engineering managers or lead engineers among their reports running the squads they are responsible for. They will likely be owne…",
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "created": "2022-08-17T03:58:30Z",
+    "id": "3410573311"
+  },
+  {
+    "salary_max": 250000,
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "Bloomberg L.P."
+    },
+    "salary_min": 250000,
+    "redirect_url": "https://www.adzuna.com/land/ad/3421487661?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=B796777227DDE7C7F7BC2619860A5D706F643F3A",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzQyMTQ4NzY2MSIsInMiOiIxdl9PXzZZcDdSRzU0Uy05WkdyMW13In0.1uQLTS2QciKJ1w6taS48eD3NSg4lLSm8UvLdNKB9pj8",
+    "category": {
+      "label": "IT Jobs",
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "tag": "it-jobs"
+    },
+    "salary_is_predicted": "0",
+    "location": {
+      "area": ["US", "New York", "New York City"],
+      "display_name": "New York City, New York",
+      "__CLASS__": "Adzuna::API::Response::Location"
+    },
+    "title": "Machine Learning Infrastructure Engineer",
+    "created": "2022-08-21T04:01:28Z",
+    "id": "3421487661",
+    "description": "Machine Learning Infrastructure Engineer New York, NY Posted Aug 2, 2022 - Requisition No. 102458 Bloomberg’s Data Science Platform was established to support development efforts around data-driven science, machine learning, and business analytics. The platform aims to provide scalable compute, specialized hardware and first-class support for a variety of workloads such as Pytorch, Spark, Tensorflow and Jupyter. The platform was developed to provide a standard set of tooling for addressing the …",
+    "__CLASS__": "Adzuna::API::Response::Job"
+  },
+  {
+    "longitude": -71.066119,
+    "redirect_url": "https://www.adzuna.com/land/ad/3362675001?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=61C0E5B6DA8EC1841B7A4C4FF86000AB3CF00D88",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzM2MjY3NTAwMSIsInMiOiIxdl9PXzZZcDdSRzU0Uy05WkdyMW13In0.9BoZsol9k18kKQTgUW11-jYGQ-9R5lqigIJ8csCYwxc",
+    "salary_max": 250000,
+    "latitude": 42.354856,
+    "company": {
+      "display_name": "Northeastern University",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "salary_min": 250000,
+    "category": {
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "tag": "trade-construction-jobs",
+      "label": "Trade & Construction Jobs"
+    },
+    "title": "Program Director",
+    "salary_is_predicted": "0",
+    "location": {
+      "area": ["US", "Massachusetts", "Suffolk County", "Boston"],
+      "display_name": "Boston, Suffolk County",
+      "__CLASS__": "Adzuna::API::Response::Location"
+    },
+    "description": "About the Opportunity Job Summary and Responsibilities: Under the general direction of the Assistant Vice President for Capital Projects, this position is responsible for the oversight and management of an assigned capital project portfolio including providing support to projects in planning and management through all phases of design, construction, turnover and closeout. The project portfolio will include a diverse group of project types including research and teaching laboratories, student ho…",
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "created": "2022-07-31T19:44:32Z",
+    "id": "3362675001"
+  },
+  {
+    "location": {
+      "area": ["US", "New York", "New York City"],
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "display_name": "New York City, New York"
+    },
+    "salary_is_predicted": "0",
+    "title": "Director, Growth Product",
+    "id": "3341068715",
+    "created": "2022-07-23T02:32:18Z",
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "description": "At Propel, our mission is to build modern, respectful, and effective financial tools for Americans with limited income. Over 5 million people use our app, Providers, to manage the benefits they use to keep their family well-fed and healthy, stay up to date on critical government programs, save money, and earn income. Read more about the impact of Providers here . Now we’ve expanded further into the financial services space, offering the best banking option for low-income Americans. We’re hiring…",
+    "salary_min": 250000,
+    "company": {
+      "display_name": "Propel",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "salary_max": 250000,
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMXZfT182WXA3Ukc1NFMtOVpHcjFtdyIsImkiOiIzMzQxMDY4NzE1In0.bzwi1sKnDVzOOA0mRJIQs69_fABYlM1sF3krfET3mwg",
+    "redirect_url": "https://www.adzuna.com/land/ad/3341068715?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=CA643CB6B54DCD183ED3572D6978289790C8F0A0",
+    "category": {
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "tag": "it-jobs",
+      "label": "IT Jobs"
+    }
+  },
+  {
+    "created": "2022-08-02T03:45:49Z",
+    "id": "3367320558",
+    "description": "As a Data Engineer focused on Digital Analytics, you’ll provide hands-on direction with data pipeline development, application services, and systems infrastructure to help State Street Global Advisors further advance our customer-centric, data-driven, digital experience capabilities. As Data Engineer – Digital Analytics you will: Build and operate innovative customer-centric solutions using digital marketing data and technology. Develop complex queries and scripts for business logic implementat…",
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "salary_is_predicted": "0",
+    "location": {
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "display_name": "Boston, Suffolk County",
+      "area": ["US", "Massachusetts", "Suffolk County", "Boston"]
+    },
+    "title": "Data Engineer – Digital Analytics, Vice President",
+    "category": {
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "tag": "it-jobs",
+      "label": "IT Jobs"
+    },
+    "salary_max": 250000,
+    "latitude": 42.354856,
+    "company": {
+      "display_name": "STATE STREET CORPORATION",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "salary_min": 250000,
+    "longitude": -71.066119,
+    "redirect_url": "https://www.adzuna.com/land/ad/3367320558?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=71F7FBEB4E235DE899B60FFE8B51AA59BB98418B",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzM2NzMyMDU1OCIsInMiOiIxdl9PXzZZcDdSRzU0Uy05WkdyMW13In0.3O32l55CIsEBpgasu3F1hSVFC58bgdkCMkmxSeVeZP0"
+  },
+  {
+    "id": "3410572244",
+    "created": "2022-08-17T03:58:20Z",
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "description": "Connecting decision makers to a dynamic network of information, people and ideas, Bloomberg quickly and accurately delivers business and financial information, news and insight around the world. Connecting decision makers to a dynamic network of information, people and ideas, Bloomberg quickly and accurately delivers business and financial information, news and insight around the world. Software Security Architect - CTO Office Software Security Architect - CTO Office Software Security Architect…",
+    "location": {
+      "display_name": "New York City, New York",
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "area": ["US", "New York", "New York City"]
+    },
+    "salary_is_predicted": "0",
+    "title": "Software Security Architect - CTO Office",
+    "category": {
+      "label": "IT Jobs",
+      "tag": "it-jobs",
+      "__CLASS__": "Adzuna::API::Response::Category"
+    },
+    "salary_min": 250000,
+    "company": {
+      "display_name": "Bloomberg L.P.",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "salary_max": 250000,
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzQxMDU3MjI0NCIsInMiOiIxdl9PXzZZcDdSRzU0Uy05WkdyMW13In0.uo9DHeunHJG4v_sluxhiH8qdRF4YTgVuCUYI_gmoFt8",
+    "redirect_url": "https://www.adzuna.com/land/ad/3410572244?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=BD3B0D6573370E678F301CDCBB4ABC6653008EB2"
+  },
+  {
+    "salary_is_predicted": "0",
+    "location": {
+      "area": ["US", "Virginia", "Fairfax County", "Mc Lean"],
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "display_name": "Mc Lean, Fairfax County"
+    },
+    "title": "Principal Data Scientist, Partnership Acquisition",
+    "created": "2022-08-17T03:58:27Z",
+    "id": "3410572903",
+    "description": "Principal Data Scientist, Partnership Acquisition Center 1 (19052), United States of America, McLean, Virginia Principal Data Scientist, Partnership Acquisition Data is at the center of everything we do. As a startup, we disrupted the credit card industry by individually personalizing every credit card offer using statistical modeling and the relational database, cutting edge technology in 1988 Fast-forward a few years, and this little innovation and our passion for data has skyrocketed us to a…",
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "salary_max": 250000,
+    "latitude": 38.97,
+    "company": {
+      "display_name": "Capital One",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "salary_min": 250000,
+    "longitude": -77.23,
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzQxMDU3MjkwMyIsInMiOiIxdl9PXzZZcDdSRzU0Uy05WkdyMW13In0.USogRtbUdM4c2KF5z8TzQ8GH4tmmjXRSJsoUoW9C0do",
+    "redirect_url": "https://www.adzuna.com/land/ad/3410572903?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=E66BD7BDFA54551E180177A1A7D8333182B035D8",
+    "category": {
+      "label": "IT Jobs",
+      "tag": "it-jobs",
+      "__CLASS__": "Adzuna::API::Response::Category"
+    }
+  },
+  {
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "description": "WHAT WE'RE LOOKING FOR: We are looking for a leader for our growing UX research practice interested in nurturing a strong research culture in a high-growth company. Research is a part of Braze’s DNA and we are seeking an experienced mixed-methods research practitioner who has demonstrated, by example, how research can add value at every stage of software development. We need someone who excels at forging cross-functional relationships, working with designers, writers, product managers, and engi…",
+    "id": "3365731358",
+    "created": "2022-08-01T19:40:41Z",
+    "title": "Head of UX Research",
+    "location": {
+      "area": ["US", "New York", "New York City"],
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "display_name": "New York City, New York"
+    },
+    "salary_is_predicted": "0",
+    "category": {
+      "label": "IT Jobs",
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "tag": "it-jobs"
+    },
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMXZfT182WXA3Ukc1NFMtOVpHcjFtdyIsImkiOiIzMzY1NzMxMzU4In0.ohlnXUgYzxFGD-u_OvPNFtzrs7W6DGZgH1ORHChzRAk",
+    "redirect_url": "https://www.adzuna.com/land/ad/3365731358?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=84A90625B4463060BC34046EC21115B9B9A6AB6C",
+    "company": {
+      "display_name": "Braze",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "salary_min": 250000,
+    "salary_max": 250000
+  },
+  {
+    "location": {
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "display_name": "San Francisco, California",
+      "area": ["US", "California", "San Francisco"]
+    },
+    "salary_is_predicted": "0",
+    "title": "Senior Director, Global Technology Services",
+    "id": "3382271800",
+    "created": "2022-08-06T19:43:19Z",
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "description": "Company Overview Every great story has a new beginning. We're excited to announce that Discovery and WarnerMedia have combined to become Warner Bros. Discovery. WBD is a premier global media and entertainment company offering audiences the world’s most differentiated and complete portfolio of content, brands and franchises across television, film, sports, news, streaming and gaming. We’re home to the world’s best storytellers, creating world-class products for consumers. From brilliant creative…",
+    "company": {
+      "display_name": "WarnerMedia",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "latitude": 37.798085,
+    "salary_min": 250000,
+    "salary_max": 250000,
+    "redirect_url": "https://www.adzuna.com/land/ad/3382271800?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=68362529C8D13D514E830086058129FF31574497",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMXZfT182WXA3Ukc1NFMtOVpHcjFtdyIsImkiOiIzMzgyMjcxODAwIn0.WgJEMHAiuMZDFDbWe-KfRfn22TMM7wmJZmGEAMP5oAo",
+    "longitude": -122.466538,
+    "category": {
+      "label": "IT Jobs",
+      "tag": "it-jobs",
+      "__CLASS__": "Adzuna::API::Response::Category"
+    }
+  },
+  {
+    "salary_is_predicted": "0",
+    "title": "Quantitative Finance Director- Finance & Strategy",
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "salary_max": 250000,
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "Cash App Investing LLC"
+    },
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzM4MjI3MjgxMCIsInMiOiIxdl9PXzZZcDdSRzU0Uy05WkdyMW13In0.k7324WUrD62Rpsafw8IsrtbU5SW6fkSRXREsLDN17Mg",
+    "redirect_url": "https://www.adzuna.com/land/ad/3382272810?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=F8E0A4ECBA158218BC7CCD293456183B1DE7FD3E",
+    "category": {
+      "tag": "accounting-finance-jobs",
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "label": "Accounting & Finance Jobs"
+    },
+    "location": {
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "display_name": "San Francisco, California",
+      "area": ["US", "California", "San Francisco"]
+    },
+    "created": "2022-08-06T19:43:39Z",
+    "id": "3382272810",
+    "description": "Quantitative Finance Director- Finance & Strategy Full-time It all started with an idea at Block in 2013. Initially built to take the pain out of peer-to-peer payments, Cash App has gone from a simple product with a single purpose to a dynamic app, bringing a better way to send, spend, invest, borrow and save to our millions of monthly active users. With a mission to redefine the world's relationship with money by making it more relatable, instantly available and universally accessible, at Cash…",
+    "salary_min": 250000,
+    "latitude": 37.798085,
+    "longitude": -122.466538,
+    "contract_time": "full_time"
+  },
+  {
+    "category": {
+      "label": "IT Jobs",
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "tag": "it-jobs"
+    },
+    "salary_max": 250000,
+    "salary_min": 250000,
+    "company": {
+      "display_name": "Bloomberg L.P.",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "redirect_url": "https://www.adzuna.com/land/ad/3334572899?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=8D57501954EFC86E4A792EBEC750C449346AB169",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzMzNDU3Mjg5OSIsInMiOiIxdl9PXzZZcDdSRzU0Uy05WkdyMW13In0.TmJj69W_2qCjESG3cxUQIT28eHUXEbmaHlIYaZqHXYc",
+    "created": "2022-07-20T15:10:56Z",
+    "id": "3334572899",
+    "description": "Connecting decision makers to a dynamic network of information, people and ideas, Bloomberg quickly and accurately delivers business and financial information, news and insight around the world Connecting decision makers to a dynamic network of information, people and ideas, Bloomberg quickly and accurately delivers business and financial information, news and insight around the world Posted Feb 7, 2022 - Requisition No. 100453 Bloomberg is the global leader in business and financial data, news…",
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "salary_is_predicted": "0",
+    "location": {
+      "area": ["US", "New York", "New York City"],
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "display_name": "New York City, New York"
+    },
+    "title": "BQuant Cloud Solutions Architect"
+  },
+  {
+    "title": "Information Security Operations Manager",
+    "salary_is_predicted": "0",
+    "location": {
+      "area": ["US", "New York", "New York City"],
+      "display_name": "New York City, New York",
+      "__CLASS__": "Adzuna::API::Response::Location"
+    },
+    "description": "100% Remote | Full Time | $180k - $200k | Manhattan, New York | August 10th, 2022 Information Security Operations Manager The leading independent provider of marketing measurement software, data and analytics is looking for an Information Security Operations Manager to join their team This would be a full time, fully remote opportunity. They are looking for candidates who are experienced with SOC environments and Incident Detection & Response. The candidate for this role would oversee and lead …",
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "created": "2022-07-31T19:44:58Z",
+    "id": "3362679670",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMXZfT182WXA3Ukc1NFMtOVpHcjFtdyIsImkiOiIzMzYyNjc5NjcwIn0.8cl-bAin_E2L5TRMtSw3_C4GhE7W9uaqtxNbM2cXzzc",
+    "contract_time": "full_time",
+    "redirect_url": "https://www.adzuna.com/land/ad/3362679670?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=A26C48EBC95E04CEB90842112C4FE9547F0B1E5F",
+    "salary_max": 250000,
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "Motion Recruitment Partners LLC"
+    },
+    "salary_min": 250000,
+    "category": {
+      "tag": "it-jobs",
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "label": "IT Jobs"
+    }
+  },
+  {
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "description": "Alternate Location: Seattle, United States Company Description Afterpay is transforming the way we pay by allowing customers to buy products immediately and pay for their purchases over four installments. The service is completely free⁵ for customers who pay on time - helping people spend responsibly. As of December 31, 2021, Afterpay is offered by more than 122,000 of the world’s favorite retailers and more than 19 million active customers have adopted the service. Afterpay is currently availa…",
+    "id": "3382272559",
+    "created": "2022-08-06T19:43:34Z",
+    "title": "Principal Data Scientist",
+    "location": {
+      "area": ["US", "California", "San Francisco"],
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "display_name": "San Francisco, California"
+    },
+    "salary_is_predicted": "0",
+    "category": {
+      "tag": "accounting-finance-jobs",
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "label": "Accounting & Finance Jobs"
+    },
+    "redirect_url": "https://www.adzuna.com/land/ad/3382272559?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=E00B332FF30F67E65E051CBB0C9B0CA7B927D40D",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzM4MjI3MjU1OSIsInMiOiIxdl9PXzZZcDdSRzU0Uy05WkdyMW13In0.oGvacHJ-IB6InUCuv6IVVMbjhSUCJOgoyjZdEzF-XFc",
+    "longitude": -122.466538,
+    "company": {
+      "display_name": "Afterpay US Services, LLC",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "salary_min": 250000,
+    "latitude": 37.798085,
+    "salary_max": 250000
+  },
+  {
+    "title": "Principal Software Engineer - Catastrophe Modelling - C# / WCF",
+    "salary_is_predicted": "0",
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "redirect_url": "https://www.adzuna.com/land/ad/3410572916?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=50D9A177ABF25DDF02846E7CEAD80A40639DB73C",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzQxMDU3MjkxNiIsInMiOiIxdl9PXzZZcDdSRzU0Uy05WkdyMW13In0.s2PaBrup9kTP1yFrLDlrJWybfLe7w1tO3cULR1WojoY",
+    "salary_max": 250000,
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "Motion Recruitment Partners LLC"
+    },
+    "category": {
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "tag": "it-jobs",
+      "label": "IT Jobs"
+    },
+    "location": {
+      "area": ["US", "Massachusetts", "Suffolk County", "Boston"],
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "display_name": "Boston, Suffolk County"
+    },
+    "description": "Principal Software Engineer - Catastrophe Modelling - C# / WCF Principal Software Engineer - Catastrophe Modelling - C# / WCF Full Time | $130k - $150k | Boston, Massachusetts | July 21st, 2022 Our client uses real time data to develop catastrophe models that help businesses manage risk based off the likelihood of extreme events including natural disasters, cyber terrorism, and life expectancy. Their complex results allow accurate assessments for YOY insurance costs, pricing, and risk analysis.…",
+    "created": "2022-08-17T03:58:27Z",
+    "id": "3410572916",
+    "longitude": -71.066119,
+    "contract_time": "full_time",
+    "salary_min": 250000,
+    "latitude": 42.354856
+  },
+  {
+    "category": {
+      "label": "IT Jobs",
+      "tag": "it-jobs",
+      "__CLASS__": "Adzuna::API::Response::Category"
+    },
+    "contract_time": "full_time",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMXZfT182WXA3Ukc1NFMtOVpHcjFtdyIsImkiOiIzNDEwNTczMDExIn0.JaNUls-f4jlwm1vyqykaWUNwxLRE8zV4TPgwoP-zWq0",
+    "redirect_url": "https://www.adzuna.com/land/ad/3410573011?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=B533FE473184034D7E21CDBC2E34892AA202A2A7",
+    "salary_max": 250000,
+    "company": {
+      "display_name": "Citigroup",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "salary_min": 250000,
+    "description": "The Applications Development Sr Manager is a senior level position responsible for establishing and implementing new or revised application systems and programs in coordination with the Technology team for F&S (Financing & Securitization) and Cross lending Collateral platforms build out which is part of overall WLCR (Wholesale Credit Risk) transformation program. The overall objective of this role is to lead applications teams for various lending domain initiatives to provide best in class serv…",
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "created": "2022-08-17T03:58:28Z",
+    "id": "3410573011",
+    "title": "Application Development Sr. Manager",
+    "salary_is_predicted": "0",
+    "location": {
+      "area": ["US", "New York", "New York City"],
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "display_name": "New York City, New York"
+    }
+  },
+  {
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "description": "At Broadridge, we've built a culture where the highest goal is to empower others to accomplish more. If you’re passionate about developing your career, while helping others along the way, come join the Broadridge team. Broadridge is looking to hire a Senior Network Engineering Architect This role reports to the VP of Network Engineering and will be a member of a global distributed team of Sr. Network Engineers and Architects. The role is responsible for the design and architecture of our next g…",
+    "id": "3410573159",
+    "created": "2022-08-17T03:58:29Z",
+    "title": "Senior Network Engineering Architect (Hybrid - Flexible Options)",
+    "location": {
+      "area": ["US", "West Virginia", "Barbour County", "Philippi"],
+      "display_name": "Philippi, Barbour County",
+      "__CLASS__": "Adzuna::API::Response::Location"
+    },
+    "salary_is_predicted": "0",
+    "category": {
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "tag": "it-jobs",
+      "label": "IT Jobs"
+    },
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzQxMDU3MzE1OSIsInMiOiIxdl9PXzZZcDdSRzU0Uy05WkdyMW13In0.2njfQbbvJfwgAkLf9pPzRNUTSFND30kw1wUH6rmMKDU",
+    "redirect_url": "https://www.adzuna.com/land/ad/3410573159?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=C804AC6A4055E8F7A6BE69E78DE37C815320897C",
+    "longitude": -80.040358,
+    "salary_min": 250000,
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "Broadridge Financial Solutions"
+    },
+    "latitude": 39.15232,
+    "salary_max": 250000
+  },
+  {
+    "salary_max": 250000,
+    "latitude": 39.15232,
+    "company": {
+      "display_name": "HCM Nexus Consulting Inc",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "salary_min": 250000,
+    "longitude": -80.040358,
+    "redirect_url": "https://www.adzuna.com/land/ad/3410572958?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=B124A42719949F30E426CE592DECA9829945955E",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzQxMDU3Mjk1OCIsInMiOiIxdl9PXzZZcDdSRzU0Uy05WkdyMW13In0.-qZH1l4iqZIESWcIoXxSE5we9aAMGXlhrLrljcyycvI",
+    "category": {
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "tag": "it-jobs",
+      "label": "IT Jobs"
+    },
+    "salary_is_predicted": "0",
+    "location": {
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "display_name": "Philippi, Barbour County",
+      "area": ["US", "West Virginia", "Barbour County", "Philippi"]
+    },
+    "title": "Salesforce Senior Software Engineer",
+    "created": "2022-08-17T03:58:27Z",
+    "id": "3410572958",
+    "description": "About the job Salesforce Senior Software Engineer . Bachelor's Degree of any computer related course . 3 years of experience as a Software Engineer . Salesforce.Com Developer- Train CPQ. Any existing CPQ skills . Demonstrated experience with the Salesforce platform and integrations including, but not limited to CPQ, Pardot, Einstein Analytics, etc. . Knowledge of Salesforce configuration and customization, data loader . Knowledge of Salesforce workflows including triggers, SOQL and SOSL. . Fami…",
+    "__CLASS__": "Adzuna::API::Response::Job"
+  },
+  {
+    "category": {
+      "label": "IT Jobs",
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "tag": "it-jobs"
+    },
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "Riot Games"
+    },
+    "salary_min": 250000,
+    "salary_max": 250000,
+    "redirect_url": "https://www.adzuna.com/land/ad/3410573071?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=EECE1A9DB3F5A0E372946F5A486890FA01E71A40",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzQxMDU3MzA3MSIsInMiOiIxdl9PXzZZcDdSRzU0Uy05WkdyMW13In0.jSe2zwmRsPXMBUFscRG_CbHiWbdL7HOTvUBt6oY4ajk",
+    "id": "3410573071",
+    "created": "2022-08-17T03:58:28Z",
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "description": "Manager, Software Engineering - Player Platform, SDK Systems Job Id: REQ-0005637 Riot Engineering Managers inspire and direct Rioters to solve complicated technical problems and are accountable for growing team performance and health. As an Engineering Manager on the Developer Platform SDK team, you will lead a team creating software solutions making the integration of Riot Platform features simple, intuitive and reliable; supporting all of Riot’s games, entertainment and esports client applica…",
+    "location": {
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "display_name": "Los Angeles, Los Angeles County",
+      "area": ["US", "California", "Los Angeles County", "Los Angeles"]
+    },
+    "salary_is_predicted": "0",
+    "title": "Manager, Software Engineering - Player Platform, SDK Systems"
+  },
+  {
+    "title": "Principal Software Engineer - Telecommute",
+    "location": {
+      "area": ["US", "Washington", "King County", "Seattle"],
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "display_name": "Seattle, King County"
+    },
+    "salary_is_predicted": "0",
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "description": "UnitedHealth Group is a company that's on the rise. We're expanding in multiple directions, across borders and, most of all, in the way we think. Here, innovation isn't about another gadget, it's about transforming the health care industry. Ready to make a difference? Make yourself at home with us and start doing your life's best work.(sm) Optum Labs serves as United Health Group’s innovation and advanced product hub. Our team conducts cutting-edge research in the health care space and incubate…",
+    "id": "3162814367",
+    "created": "2022-05-23T22:14:03Z",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMXZfT182WXA3Ukc1NFMtOVpHcjFtdyIsImkiOiIzMTYyODE0MzY3In0.XX1XokcWYVFjDvuOZNNZIzlx0sQEVv8jpW6GUuOo4EU",
+    "redirect_url": "https://www.adzuna.com/land/ad/3162814367?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=8BF74711F009A0025A93F2C51572DEF899934859",
+    "longitude": -122.336407,
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "United Health Group"
+    },
+    "latitude": 47.608492,
+    "salary_min": 250000,
+    "salary_max": 250000,
+    "category": {
+      "label": "IT Jobs",
+      "tag": "it-jobs",
+      "__CLASS__": "Adzuna::API::Response::Category"
+    }
+  },
+  {
+    "redirect_url": "https://www.adzuna.com/land/ad/3297237326?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=61C33EB8D8BBBF40E9EF20DDA962DFDB0B7B28EB",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMXZfT182WXA3Ukc1NFMtOVpHcjFtdyIsImkiOiIzMjk3MjM3MzI2In0.FL3MJqDeJnFxMtZpJ_bDrd_SVOHSySypvoRx-yAdIfA",
+    "longitude": -73.415121,
+    "latitude": 40.793432,
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "KPMG"
+    },
+    "salary_min": 250000,
+    "salary_max": 250000,
+    "category": {
+      "label": "IT Jobs",
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "tag": "it-jobs"
+    },
+    "title": "Manager, Software Engineering Java Full Stack",
+    "location": {
+      "display_name": "Melville, Suffolk County",
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "area": ["US", "New York", "Suffolk County", "Melville"]
+    },
+    "salary_is_predicted": "0",
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "description": "Manager, Software Engineering Java Full Stack Business Title: Manager, Software Engineering Java Full Stack Requisition Number: 87393 - 65 Function: Advisory Area of Interest: Digital Lighthouse State: NY City: Melville Description: We are The Lighthouse within KPMG's Consulting practice. We tap into the power of emerging technologies and scientific breakthroughs to create solutions and products that address the largest and most complex issues faced by global companies. By blending technology w…",
+    "id": "3297237326",
+    "created": "2022-07-06T22:57:34Z"
+  },
+  {
+    "salary_max": 250000,
+    "latitude": 37.798085,
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "Walt Disney Studios"
+    },
+    "salary_min": 250000,
+    "longitude": -122.466538,
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzMzNDU3MjYyMSIsInMiOiIxdl9PXzZZcDdSRzU0Uy05WkdyMW13In0.wA-G6ztPkmGRM_C1H5vM2fKwRQr0U6cOL3wSRBx2pZI",
+    "redirect_url": "https://www.adzuna.com/land/ad/3334572621?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=CF889CFD850AD66892BA7B7E5BDFF922D15529B4",
+    "category": {
+      "tag": "it-jobs",
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "label": "IT Jobs"
+    },
+    "salary_is_predicted": "0",
+    "location": {
+      "area": ["US", "California", "San Francisco"],
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "display_name": "San Francisco, California"
+    },
+    "title": "Creature Technical Director - Expression of Interest",
+    "created": "2022-07-20T15:10:51Z",
+    "id": "3334572621",
+    "description": "This posting is an opportunity to submit your resume for future consideration; this is not a role that is open at this time. We anticipate this role may be open in the future, but we are not actively hiring for the position. If you would like to be considered for this potential role, please submit your resume. If the role becomes available, you may receive an email or call from a recruiter. Position Summary The Creature Technical Director is responsible for rigging and enveloping hero to backgr…",
+    "__CLASS__": "Adzuna::API::Response::Job"
+  },
+  {
+    "contract_time": "full_time",
+    "redirect_url": "https://www.adzuna.com/land/ad/3362673823?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=FF2A970714B6886C5E18A2CA5545341035FCC8A6",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMXZfT182WXA3Ukc1NFMtOVpHcjFtdyIsImkiOiIzMzYyNjczODIzIn0.o_SoutWGfwp-CFOPU7Qr0omGPujrikegLU-0BPLawhg",
+    "salary_max": 250000,
+    "company": {
+      "display_name": "Motion Recruitment Partners LLC",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "salary_min": 250000,
+    "category": {
+      "label": "IT Jobs",
+      "tag": "it-jobs",
+      "__CLASS__": "Adzuna::API::Response::Category"
+    },
+    "title": "Systems Architect / NG9-1-1 / Brooklyn, NY",
+    "salary_is_predicted": "0",
+    "location": {
+      "display_name": "New York City, New York",
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "area": ["US", "New York", "New York City"]
+    },
+    "description": "Systems Architect / NG9-1-1 / Brooklyn, NY Systems Architect / NG9-1-1 / Brooklyn, NY Contract | $50/hr - $60/hr | Brooklyn, New York | July 19th, 2022 An IT software consulting firm that provides software development, consulting, DevSecOps, and predictive analytics is looking for a Systems Architect to join their New York team. This will be fully onsite in Brooklyn, NY and will be a 1 year contract to start, with the likelihood to extend. As a Systems Architect you will work directly with a lo…",
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "created": "2022-07-31T19:44:26Z",
+    "id": "3362673823"
+  },
+  {
+    "redirect_url": "https://www.adzuna.com/land/ad/3421486613?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=049925F6A8D27C50652B7F8BE61EDBF2CB27F67F",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzQyMTQ4NjYxMyIsInMiOiIxdl9PXzZZcDdSRzU0Uy05WkdyMW13In0.FOjEJa9tzO0A7epklwAPi1Z0eeymFVPP4iwG2arqeOY",
+    "salary_min": 250000,
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "North State"
+    },
+    "salary_max": 250000,
+    "category": {
+      "label": "IT Jobs",
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "tag": "it-jobs"
+    },
+    "title": "Chief Information Officer",
+    "location": {
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "display_name": "New York City, New York",
+      "area": ["US", "New York", "New York City"]
+    },
+    "salary_is_predicted": "0",
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "description": "Carnegie Hall, 881 7th Avenue, New York, New York, United States of America Req 45 Monday, August 8, 2022 Since 1891, New York's Carnegie Hall has set the international standardfor excellence in performance, presenting exceptional concerts by theworld’s finest artists on its three iconic stages, from orchestralconcerts, chamber music, contemporary offerings, and recitals to jazz,world, and popular music. Complementing its performance activities,Carnegie Hall’s Weill Music Institute creates exte…",
+    "id": "3421486613",
+    "created": "2022-08-21T04:01:05Z"
+  },
+  {
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "description": "100% Remote | Full Time | $200k - $225k | Chicago, IL | August 9th, 2022 Required Skills & Experience 5 years with AWS Python Desired Skills & Experience Master’s Degree in CS 10 years’ experience implementing software applications ho What You Will Be Doing AWS Python Java Daily Responsibilities 100% Hands On 10% Management Duties The Offer You will receive the following benefits: Medical Insurance Paid Time Off (PTO) 401(k) Volunteer time off Applicants must be currently authorized to work in …",
+    "id": "3419223263",
+    "created": "2022-08-20T04:08:35Z",
+    "title": "100% Remote Principal DevOps Engineer",
+    "location": {
+      "area": ["US", "Illinois", "Cook County", "Chicago"],
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "display_name": "Chicago, Cook County"
+    },
+    "salary_is_predicted": "0",
+    "category": {
+      "tag": "it-jobs",
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "label": "IT Jobs"
+    },
+    "redirect_url": "https://www.adzuna.com/land/ad/3419223263?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=571D2CF217417F64845C7095DDDCE132D48E2A7E",
+    "contract_time": "full_time",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMXZfT182WXA3Ukc1NFMtOVpHcjFtdyIsImkiOiIzNDE5MjIzMjYzIn0.2T0oolxX0r5zgRRgNqGCsVyJGVk3xIhPFft3_naQURg",
+    "company": {
+      "display_name": "Motion Recruitment Partners LLC",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "salary_min": 250000,
+    "salary_max": 250000
+  },
+  {
+    "salary_max": 250000,
+    "company": {
+      "display_name": "KPMG",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "salary_min": 250000,
+    "redirect_url": "https://www.adzuna.com/land/ad/3410573180?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=87867CF00FCC93F98CFBE8C8CD6A4B261FF31A22",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzQxMDU3MzE4MCIsInMiOiIxdl9PXzZZcDdSRzU0Uy05WkdyMW13In0.HEe82LrOeBEa-iivjvGFLdkOfJMMeT9vz1bgDqCXwkQ",
+    "category": {
+      "label": "IT Jobs",
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "tag": "it-jobs"
+    },
+    "salary_is_predicted": "0",
+    "location": {
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "display_name": "New York City, New York",
+      "area": ["US", "New York", "New York City"]
+    },
+    "title": "Senior Associate, Cyber Security - Cyber Strategy, Risk, Board Reporting",
+    "created": "2022-08-17T03:58:29Z",
+    "id": "3410573180",
+    "description": "Senior Associate, Cyber Security - Cyber Strategy, Risk, Board Reporting Business Title: Senior Associate, Cyber Security - Cyber Strategy, Risk, Board Reporting Requisition Number: 81377 - 96 Function: Advisory Area of Interest: Cyber State: VA City: Richmond Description: The KPMG Advisory practice is currently our fastest growing practice. We are seeing tremendous client demand, and looking forward we don't anticipate that slowing down. In this ever-changing market environment, our profession…",
+    "__CLASS__": "Adzuna::API::Response::Job"
+  },
+  {
+    "salary_is_predicted": "0",
+    "title": "Director or Senior Director, Product Development",
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "company": {
+      "display_name": "T1D EXCHANGE INC",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "salary_max": 250000,
+    "redirect_url": "https://www.adzuna.com/land/ad/3390790576?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=5E4E4D8B885366D1B67EED93C06FA9A9FFC14C3E",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzM5MDc5MDU3NiIsInMiOiIxdl9PXzZZcDdSRzU0Uy05WkdyMW13In0.eDLdgfPBeqGybby4lilb06XxYpGuIAnr7367MYsoFFM",
+    "category": {
+      "tag": "it-jobs",
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "label": "IT Jobs"
+    },
+    "location": {
+      "area": ["US", "Massachusetts", "Suffolk County", "Boston"],
+      "display_name": "Boston, Suffolk County",
+      "__CLASS__": "Adzuna::API::Response::Location"
+    },
+    "id": "3390790576",
+    "created": "2022-08-10T03:56:26Z",
+    "description": "This website is AudioEye enabled and is being optimized for accessibility. To open the AudioEye Toolbar, press shift  . The toolbar contains the following The AudioEye Help Desk to report accessibility and usability related issues. The AudioEye Certification Statement to explain the ongoing web accessibility and usability enhancements for this website. The Player tool to listen to this site read aloud. The Player is not intended as a substitute for your screen reader. If you are unable to compl…",
+    "salary_min": 250000,
+    "latitude": 42.354856,
+    "contract_time": "full_time",
+    "longitude": -71.066119
+  },
+  {
+    "redirect_url": "https://www.adzuna.com/land/ad/3292894971?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=E2029A3631BC045BE33C7E63AEB619E40332D3EE",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzI5Mjg5NDk3MSIsInMiOiIxdl9PXzZZcDdSRzU0Uy05WkdyMW13In0.3GQ7q4wX-KpVzoVoUk07_28hArSENi2gGT8tcMAX1V0",
+    "longitude": -84.263547,
+    "salary_min": 250000,
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "Rigetti And Company Inc"
+    },
+    "latitude": 38.918677,
+    "salary_max": 250000,
+    "category": {
+      "label": "Engineering Jobs",
+      "tag": "engineering-jobs",
+      "__CLASS__": "Adzuna::API::Response::Category"
+    },
+    "title": "Director, Hardware Engineering",
+    "location": {
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "display_name": "California, Campbell County",
+      "area": ["US", "Kentucky", "Campbell County", "California"]
+    },
+    "salary_is_predicted": "0",
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "description": " Will consider Senior Director for qualified applicants. As the Director or Senior Director of Hardware Engineering, you will play a dual role in leading the hardware team in subsystem development as well as providing the hardware system integration plans for production systems. The hardware team’s work sits at the center of our systems, so your role will require direct interactions with the other parts of the Systems Engineering org, as well as with our Chip fabrication & Packaging teams and o…",
+    "id": "3292894971",
+    "created": "2022-07-05T15:07:47Z"
+  },
+  {
+    "description": "Who is Forcepoint? Forcepoint simplifies security for global businesses and governments. Forcepoint’s all-in-one, truly cloud-native platform makes it easy to adopt Zero Trust and prevent the theft or loss of sensitive data and intellectual property no matter where people are working. 20 years in business. 2.7k employees. 150 countries. 11k customers. 300 patents. If our mission excites you, you’re in the right place; we want you to bring your own energy to help us create a safer world. All we’…",
+    "id": "3410573461",
+    "created": "2022-08-17T03:58:32Z",
+    "location": {
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "display_name": "Washington, Washington, D.C.",
+      "area": ["US", "Washington, D.C.", "Washington"]
+    },
+    "contract_time": "full_time",
+    "longitude": -77.019023,
+    "latitude": 38.912068,
+    "salary_min": 250000,
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "title": "Principal Cyber Engineer",
+    "salary_is_predicted": "0",
+    "category": {
+      "tag": "it-jobs",
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "label": "IT Jobs"
+    },
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzQxMDU3MzQ2MSIsInMiOiIxdl9PXzZZcDdSRzU0Uy05WkdyMW13In0.62AdfFynHvenYpvOV_bJroLxyHuFK6AAy2doEYzy6yE",
+    "redirect_url": "https://www.adzuna.com/land/ad/3410573461?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=836B61CD7B33C49099A6AE9763D7F2A8AA4087DA",
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "Forcepoint"
+    },
+    "salary_max": 250000
+  },
+  {
+    "location": {
+      "display_name": "Daleville, Delaware County",
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "area": ["US", "Indiana", "Delaware County", "Daleville"]
+    },
+    "salary_is_predicted": "0",
+    "title": "Chief Technology Innovation Officer",
+    "id": "3421486968",
+    "created": "2022-08-21T04:01:13Z",
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "description": "If you are a job seeker with a disability and require a reasonable accommodation to apply for one of our jobs, you will find the contact information to request the appropriate accommodation by visiting the following page: Description Position Goals: The Chief Technology Innovation Officer (CTIO) has overall strategic leadership and vision for the technology programs and initiatives relating to software development, agile transformation, enterprise architecture, technical innovation, and data ar…",
+    "company": {
+      "display_name": "First Merchants Bank",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "salary_min": 250000,
+    "latitude": 40.121155,
+    "salary_max": 250000,
+    "redirect_url": "https://www.adzuna.com/land/ad/3421486968?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=6600A1C5B96176B02F395D5B3939E971356C70ED",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzQyMTQ4Njk2OCIsInMiOiIxdl9PXzZZcDdSRzU0Uy05WkdyMW13In0.UyGzAeTVlthatPc9aIUKnNQKhVC2-TA0ozTL3ZR-SG0",
+    "longitude": -85.55803,
+    "category": {
+      "label": "IT Jobs",
+      "tag": "it-jobs",
+      "__CLASS__": "Adzuna::API::Response::Category"
+    }
+  },
+  {
+    "created": "2022-07-17T23:12:00Z",
+    "id": "3327649719",
+    "description": "VP, Engineering - Head of IT Transformation Atlassian can hire people in any country where we have a legal entity. Assuming you have eligible working rights and a sufficient time zone overlap with your team, you can choose to work remotely or return to an office as they reopen (unless it’s necessary for your role to be performed in the office). Interviews and onboarding are conducted virtually, a part of being a distributed-first company. Creating software that empowers everyone from small star…",
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "salary_is_predicted": "0",
+    "location": {
+      "display_name": "Mountain View, Santa Clara County",
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "area": ["US", "California", "Santa Clara County", "Mountain View"]
+    },
+    "title": "VP, Engineering - Head of IT Transformation",
+    "category": {
+      "label": "IT Jobs",
+      "tag": "it-jobs",
+      "__CLASS__": "Adzuna::API::Response::Category"
+    },
+    "salary_max": 250000,
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "Atlassian"
+    },
+    "salary_min": 250000,
+    "latitude": 37.378535,
+    "longitude": -122.086585,
+    "redirect_url": "https://www.adzuna.com/land/ad/3327649719?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=55DAB1360775D9B13447694833838FF72D56B6B3",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzMyNzY0OTcxOSIsInMiOiIxdl9PXzZZcDdSRzU0Uy05WkdyMW13In0.M2OSABWep59yrtMNwrH_jbzU0FI2Kqu7VUhXVo2-Rss"
+  },
+  {
+    "category": {
+      "tag": "it-jobs",
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "label": "IT Jobs"
+    },
+    "longitude": -84.388372,
+    "redirect_url": "https://www.adzuna.com/land/ad/3410572939?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=E7C77BAD17C98B78F764F48B0C166904373E8F66",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMXZfT182WXA3Ukc1NFMtOVpHcjFtdyIsImkiOiIzNDEwNTcyOTM5In0.i6q-Vz0AcSiEHJp6-USK1hkY14JaufFNrtJZ3VxgMO8",
+    "salary_max": 250000,
+    "salary_min": 250000,
+    "company": {
+      "display_name": "KPMG",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "latitude": 33.755711,
+    "description": "Senior Associate, Cyber Security - Cyber Strategy, Risk, Board Reporting Business Title: Senior Associate, Cyber Security - Cyber Strategy, Risk, Board Reporting Requisition Number: 81377 - 27 Function: Advisory Area of Interest: Cyber State: GA City: Atlanta Description: The KPMG Advisory practice is currently our fastest growing practice. We are seeing tremendous client demand, and looking forward we don't anticipate that slowing down. In this ever-changing market environment, our professiona…",
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "created": "2022-08-17T03:58:27Z",
+    "id": "3410572939",
+    "title": "Senior Associate, Cyber Security - Cyber Strategy, Risk, Board Reporting",
+    "salary_is_predicted": "0",
+    "location": {
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "display_name": "Atlanta, Fulton County",
+      "area": ["US", "Georgia", "Fulton County", "Atlanta"]
+    }
+  },
+  {
+    "created": "2022-07-31T19:44:46Z",
+    "id": "3362677508",
+    "description": "JOB SUMMARY Under general direction, conducts reconciliations for corporate clients, including more complex clients to ensure operating expenses are in compliance with lease terms. Collaborates with lease administration managers to identify, negotiate, and recoup potential savings for client. ESSENTIAL DUTIES AND RESPONSIBILITIES Reviews, compares, and analyzes operating expense and tax reconciliation statements received from landlords to ensure expenses charged to client are in compliance with…",
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "salary_is_predicted": "0",
+    "location": {
+      "display_name": "Philippi, Barbour County",
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "area": ["US", "West Virginia", "Barbour County", "Philippi"]
+    },
+    "title": "Lease Audit Specialist",
+    "category": {
+      "label": "Accounting & Finance Jobs",
+      "tag": "accounting-finance-jobs",
+      "__CLASS__": "Adzuna::API::Response::Category"
+    },
+    "salary_max": 250000,
+    "company": {
+      "display_name": "CBRE Group, Inc.",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "salary_min": 250000,
+    "latitude": 39.15232,
+    "longitude": -80.040358,
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMXZfT182WXA3Ukc1NFMtOVpHcjFtdyIsImkiOiIzMzYyNjc3NTA4In0.xvT36vS2LktzrWG-Hax4GJs22fEca0kzDbyzF0hiBtI",
+    "redirect_url": "https://www.adzuna.com/land/ad/3362677508?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=82094C5977AD88FAC3BCD582F50454FC180879A0"
+  },
+  {
+    "title": "Tax Senior Manager - Silicon Valley",
+    "location": {
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "display_name": "Mountain View, Santa Clara County",
+      "area": ["US", "California", "Santa Clara County", "Mountain View"]
+    },
+    "salary_is_predicted": "0",
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "description": "Responsibilities Are you interested in joining one of the fastest growing public accounting firms with a great deal of future opportunity for your own career growth? Would you also like to be at a firm innovsating in ways to attract and retain talent, in order to grow and strengthen your team to provide a more meaningful experience to clients? If yes, consider joining Baker Tilly (BT) as a Tax Senior Manage r This is a great opportunity to be a valued business advisor delivering industry-focuse…",
+    "id": "3362671731",
+    "created": "2022-07-31T19:44:14Z",
+    "redirect_url": "https://www.adzuna.com/land/ad/3362671731?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=D0F9ED1B51E084503541F5CB5713C68E27E44F9F",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzM2MjY3MTczMSIsInMiOiIxdl9PXzZZcDdSRzU0Uy05WkdyMW13In0.Qzr3cXaNUp57wGz0Pee0Iqe6jySqL5q02MZpsmIcyik",
+    "longitude": -122.086585,
+    "salary_min": 250000,
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "Baker Tilly US, LLP"
+    },
+    "latitude": 37.378535,
+    "salary_max": 250000,
+    "category": {
+      "tag": "accounting-finance-jobs",
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "label": "Accounting & Finance Jobs"
+    }
+  },
+  {
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "title": "SAP BPC Engagement Director",
+    "salary_is_predicted": "0",
+    "category": {
+      "label": "IT Jobs",
+      "tag": "it-jobs",
+      "__CLASS__": "Adzuna::API::Response::Category"
+    },
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjU4Mzk0NDEwMiIsInMiOiIxdl9PXzZZcDdSRzU0Uy05WkdyMW13In0.6DVujN2yd1L8dzGCSBaoDy9bUiVApgHfuh4UMMs-1m8",
+    "redirect_url": "https://www.adzuna.com/land/ad/2583944102?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=89C683E3AF01E083319171D7B39DB49B9297DC7E",
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "Techaxis, Inc"
+    },
+    "salary_max": 250000,
+    "description": "Full time | Techaxis, Inc | United States Posted On 09/15/2016 Job Information Industry IT Services Work Experience 5 years City Open State/Province Washington DC Job Description About the client : Our client is a global IT services, consulting, and business solutions organization that delivers real results to global business, ensuring a level of certainty no other firm can match. Our client offers a consulting-led, integrated portfolio of services. This is delivered through its unique Global d…",
+    "id": "2583944102",
+    "created": "2021-10-27T08:19:05Z",
+    "location": {
+      "area": ["US", "Washington, D.C.", "Washington"],
+      "display_name": "Washington, Washington, D.C.",
+      "__CLASS__": "Adzuna::API::Response::Location"
+    },
+    "contract_time": "full_time",
+    "longitude": -77.019023,
+    "latitude": 38.912068,
+    "salary_min": 250000
+  },
+  {
+    "category": {
+      "tag": "engineering-jobs",
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "label": "Engineering Jobs"
+    },
+    "salary_max": 250000,
+    "salary_min": 250000,
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "Hexagon PPM"
+    },
+    "latitude": 31.829597,
+    "longitude": -86.617752,
+    "redirect_url": "https://www.adzuna.com/land/ad/3365729951?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=E2E027C5357489CCE9AE58A7D12B68B3F50127EB",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzM2NTcyOTk1MSIsInMiOiIxdl9PXzZZcDdSRzU0Uy05WkdyMW13In0.NZtmeatVXM7m_3pB0CuktCZNjjytYsidolKP26bJFe4",
+    "created": "2022-08-01T19:40:26Z",
+    "id": "3365729951",
+    "description": "Job Locations US-SC-Greenville | US-Remote Req ID 2022-9079 Division EAM  of Openings 1 Category Sales/Account Management Relocation No Responsibilities Hexagon PPM is seeking to hire a Senior Strategy & Enablement Lead , for the Enterprise Asset Management (EAM) Segment within our worldwide Portfolio Strategy & Enablement (PSE) group. This is a global role in which the candidate will be instrumental in supporting the strategic direction, positioning, and rollout of Hexagon solutions in the Pro…",
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "salary_is_predicted": "0",
+    "location": {
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "display_name": "Greenville, Butler County",
+      "area": ["US", "Alabama", "Butler County", "Greenville"]
+    },
+    "title": "Senior Strategy & Enablement Consulting Lead"
+  },
+  {
+    "created": "2022-08-16T12:04:17Z",
+    "id": "3408260679",
+    "description": "Druva enables cyber, data and operational resilience for every organization with the Data Resiliency Cloud, the industry’s first and only at scale SaaS solution. Customers can radically simplify data protection, streamline data governance, and gain data visibility and insights as they accelerate cloud adoption. Druva pioneered a SaaS-based approach to eliminate complex infrastructure and related management costs, and deliver data resilience via a single platform spanning multiple geographies an…",
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "salary_is_predicted": "0",
+    "location": {
+      "display_name": "Santa Clara County, California",
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "area": ["US", "California", "Santa Clara County"]
+    },
+    "title": "Senior Director, Product Management",
+    "category": {
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "tag": "it-jobs",
+      "label": "IT Jobs"
+    },
+    "salary_max": 250000,
+    "company": {
+      "display_name": "Druva",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "salary_min": 250000,
+    "latitude": 37.295035,
+    "longitude": -121.948372,
+    "redirect_url": "https://www.adzuna.com/land/ad/3408260679?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=A7E5B5E88BD9D0590ABE6B39EC369B6117E963FF",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzQwODI2MDY3OSIsInMiOiIxdl9PXzZZcDdSRzU0Uy05WkdyMW13In0.LdjT2GAmNowQJgtqFxwl5DrO3Y4JNxSiwbD572-jtzM"
+  },
+  {
+    "category": {
+      "tag": "engineering-jobs",
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "label": "Engineering Jobs"
+    },
+    "salary_max": 250000,
+    "salary_min": 250000,
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "WayUp"
+    },
+    "latitude": 42.354856,
+    "longitude": -71.066119,
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzQ0MDEzNDAxNiIsInMiOiIxdl9PXzZZcDdSRzU0Uy05WkdyMW13In0.whLV4sTresklpKz5ATYOhV_2v7oioOjtuq3SoBtKKLg",
+    "redirect_url": "https://www.adzuna.com/land/ad/3440134016?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=0E072A970686F68E8DEC8CA5899BB7252646E463",
+    "created": "2022-08-28T20:00:05Z",
+    "id": "3440134016",
+    "description": "The Motional global headquarters are located at 100 Northern Avenue in Boston, MA. Nestled in the busting Seaport district with sweeping views of Boston Harbor and downtown Boston, the offices are located close to major transit lines and a quick walk to various restaurants and popular attractions. DEEP LEARNING AND CONTROLS INTERN Motional is seeking a deep learning and controls intern who will be part of a team that is developing the core technology of autonomous vehicles on a daily basis. You…",
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "salary_is_predicted": "0",
+    "location": {
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "display_name": "Boston, Suffolk County",
+      "area": ["US", "Massachusetts", "Suffolk County", "Boston"]
+    },
+    "title": "Fall InternCoOp 2022 Deep Learning and Controls Intern"
+  },
+  {
+    "id": "2997500226",
+    "created": "2022-03-24T21:17:39Z",
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "description": "THE LARGEST COLLECTION OF $100K JOBS ON EARTH Medical Director Behavioral Health Remote Opportunity Location Orange, CA, United States Posted on Mar 22, 2022 Apply for this job your email: upload resume: Profile Medical Director (Behavioral Health) (Remote Opportunity) Job Description Department(s): Medical Management Reports to: Chief Medical Officer (CMO) FLSA status: Exempt Salary Grade: V - $266,000 - $437,800 Remote Work OpportunityThis position is a remote opportunity for Southern Califor…",
+    "location": {
+      "area": ["US", "California", "Orange County"],
+      "display_name": "Orange County, California",
+      "__CLASS__": "Adzuna::API::Response::Location"
+    },
+    "salary_is_predicted": "0",
+    "title": "Medical Director Behavioral Health Remote Opportunity",
+    "category": {
+      "tag": "healthcare-nursing-jobs",
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "label": "Healthcare & Nursing Jobs"
+    },
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "CalOptima"
+    },
+    "latitude": 33.699814,
+    "salary_min": 250000,
+    "salary_max": 250000,
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMXZfT182WXA3Ukc1NFMtOVpHcjFtdyIsImkiOiIyOTk3NTAwMjI2In0.b_Q_MOZ0e0ONC8w5t5GXwZK2zVq8QaBgvnW56Ou1igk",
+    "redirect_url": "https://www.adzuna.com/land/ad/2997500226?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=91F5E2D01E6F6AD8356C38E9FFD4655D61035B84",
+    "longitude": -117.810936
+  },
+  {
+    "title": "Pre-legal Specialist- Remote",
+    "salary_is_predicted": "0",
+    "location": {
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "display_name": "San Francisco, California",
+      "area": ["US", "California", "San Francisco"]
+    },
+    "description": "Pre-Legal Specialist - Remote - 2105038504 Description : As a part of the Tenet and Catholic Health Initiatives family, Conifer Health brings 30 years of healthcare industry expertise to clients in more than 135 local regions nationwide. We help our clients strengthen their financial and clinical performance, serve their communities and succeed at the business of healthcare. Conifer Health helps organizations transition from volume to value-based care, enhance the consumer and patient healthcar…",
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "created": "2022-03-09T20:14:54Z",
+    "id": "2959901887",
+    "longitude": -122.466538,
+    "redirect_url": "https://www.adzuna.com/land/ad/2959901887?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=CAD599F333E0C718C96CA31B50E0906AD9F950CB",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMXZfT182WXA3Ukc1NFMtOVpHcjFtdyIsImkiOiIyOTU5OTAxODg3In0.02YcaitGs7MvHMfMxQc8CqRW7pfceLaAVp1QZOiIvqo",
+    "salary_max": 250000,
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "Tenet Healthcare"
+    },
+    "latitude": 37.798085,
+    "salary_min": 250000,
+    "category": {
+      "tag": "it-jobs",
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "label": "IT Jobs"
+    }
+  },
+  {
+    "category": {
+      "tag": "it-jobs",
+      "__CLASS__": "Adzuna::API::Response::Category",
+      "label": "IT Jobs"
+    },
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMXZfT182WXA3Ukc1NFMtOVpHcjFtdyIsImkiOiIzNDIyODgwOTYxIn0.AlY6mW__dZAoP8bud4pFU61rkF69PcxQjvaMsQN_Tmg",
+    "redirect_url": "https://www.adzuna.com/land/ad/3422880961?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=7661AC9C340DF4FF7115E6909F5F5FC2EA6BF477",
+    "salary_max": 250000,
+    "company": {
+      "__CLASS__": "Adzuna::API::Response::Company",
+      "display_name": "Bloomberg L.P."
+    },
+    "salary_min": 250000,
+    "description": "Posted May 20, 2022 - Requisition No. 103828 At Bloomberg, our products are fueled by powerful information. We combine data and context to paint the whole picture for our clients, around the clock – from around the world. Our Data department is responsible for delivering as reported and derived data, news, and analytics through innovative technology - quickly and accurately. The importance of human capital, compensation structures, and diversity are critical factors global investors consider to…",
+    "__CLASS__": "Adzuna::API::Response::Job",
+    "created": "2022-08-21T20:00:31Z",
+    "id": "3422880961",
+    "title": "ESG Product Manager Technical Strategy",
+    "salary_is_predicted": "0",
+    "location": {
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "display_name": "New York City, New York",
+      "area": ["US", "New York", "New York City"]
+    }
+  },
+  {
+    "longitude": -98.522671,
+    "contract_time": "full_time",
+    "latitude": 29.46357,
+    "salary_min": 250000,
+    "location": {
+      "display_name": "San Antonio, Bexar County",
+      "__CLASS__": "Adzuna::API::Response::Location",
+      "area": ["US", "Texas", "Bexar County", "San Antonio"]
+    },
+    "description": "The Position Our community bank client is seeking to fill a Bank/Credit Union CFO role in the San Antonio, TX area. They are seeking a dynamic, innovative individual to oversee all the bank’s accounting functions. This senior leader will have a track record of providing successful growth strategies for various banks. They will guide the organization’s financial area toward growth and expansion. This position offers a competitive salary of up to $250K and a full benefits package. Bank/Credit Uni…",
+    "created": "2022-08-25T09:10:48Z",
+    "id": "3431998278",
+    "adref": "eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMXZfT182WXA3Ukc1NFMtOVpHcjFtdyIsImkiOiIzNDMxOTk4Mjc4In0.bor5E6317N_0Hvyzot5mAYvXySb_eBBImUWwEYbr2mM",
+    "redirect_url": "https://www.adzuna.com/land/ad/3431998278?se=1v_O_6Yp7RG54S-9ZGr1mw&utm_medium=api&utm_source=d0291057&v=3F6FB1D21296C5B05A4EB41DD3E92BF34E17A2C3",
+    "salary_max": 250000,
+    "company": {
+      "display_name": "The Symicor Group",
+      "__CLASS__": "Adzuna::API::Response::Company"
+    },
+    "category": {
+      "label": "Accounting & Finance Jobs",
+      "tag": "accounting-finance-jobs",
+      "__CLASS__": "Adzuna::API::Response::Category"
+    },
+    "title": "Bank/Credit Union CFO - To 250K - San Antonio, TX - Job  2730",
+    "salary_is_predicted": "0",
+    "__CLASS__": "Adzuna::API::Response::Job"
+  }
+]
