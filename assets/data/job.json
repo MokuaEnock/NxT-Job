@@ -1,4 +1,4 @@
-[
+{"job": [
   {
     "contract_time": "full_time",
     "longitude": -73.753551,
@@ -1384,4 +1384,4 @@
     "salary_is_predicted": "0",
     "__CLASS__": "Adzuna::API::Response::Job"
   }
-]
+]}
