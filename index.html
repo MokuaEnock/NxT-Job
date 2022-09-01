@@ -12,8 +12,9 @@
   <title>NxT Job</title>
 
 </head>
+<!--onload="domManipulate()"  -->
 
-<body onload="domManipulate()">
+<body>
   <header>
     <div id="logo">
       <a href="#"><img src="./assets/images/logo main.png" alt="logo" /></a>
@@ -53,7 +54,7 @@
     <div id="explore_cont">
       <div id="explore_cont1">
 
-        <div class="explore_job_card">
+        <div class="explore_job_card" id="explore_job_card1">
           <div class="explore_job_card_image">
             <img src="./assets/images/frontend.jpg" alt="web security">
           </div>
@@ -68,14 +69,14 @@
             <button class="explore_job_card_more">
               Learn More
             </button>
-            <button class="explore_job_card_all">
+            <button class="explore_job_card_all" onclick="exploreCategory1()" id="explore_job_card_all1">
               View All
             </button>
           </div>
 
         </div>
 
-        <div class="explore_job_card">
+        <div class="explore_job_card" id="explore_job_card2">
           <div class="explore_job_card_image">
             <img src="./assets/images/machine_learning.jpg" alt="web security">
           </div>
@@ -90,14 +91,14 @@
             <button class="explore_job_card_more">
               Learn More
             </button>
-            <button class="explore_job_card_all">
+            <button class="explore_job_card_all" onclick="exploreCategory2()" id="explore_job_card_all2">
               View All
             </button>
           </div>
 
         </div>
 
-        <div class="explore_job_card">
+        <div class="explore_job_card" id="explore_job_card3">
           <div class="explore_job_card_image">
             <img src="./assets/images/fullstack.jpg" alt="web security">
           </div>
@@ -112,7 +113,7 @@
             <button class="explore_job_card_more">
               Learn More
             </button>
-            <button class="explore_job_card_all">
+            <button class="explore_job_card_all" id="explore_job_card_all3">
               View All
             </button>
           </div>
@@ -121,7 +122,7 @@
       </div>
       <div id="explore_cont2">
 
-        <div class="explore_job_card">
+        <div class="explore_job_card" id="explore_job_card4">
           <div class="explore_job_card_image">
             <img src="./assets/images/mobile_dev.jpg" alt="web security">
           </div>
@@ -136,13 +137,13 @@
             <button class="explore_job_card_more">
               Learn More
             </button>
-            <button class="explore_job_card_all">
+            <button class="explore_job_card_all" id="explore_job_card_all4">
               View All
             </button>
           </div>
         </div>
 
-        <div class="explore_job_card">
+        <div class="explore_job_card" id="explore_job_card5">
           <div class="explore_job_card_image">
             <img src="./assets/images/web_security.jpg" alt="web security">
           </div>
@@ -157,7 +158,7 @@
             <button class="explore_job_card_more">
               Learn More
             </button>
-            <button class="explore_job_card_all">
+            <button class="explore_job_card_all" id="explore_job_card_all5">
               View All
             </button>
           </div>

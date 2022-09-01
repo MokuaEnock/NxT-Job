@@ -13,11 +13,48 @@ function domManipulate() {
 function displayExplore() {
   if (explore.style.display === "none") {
     explore.style.display = "flex";
+    search.style.display = "none";
+    resultsTitle.style.display = "none";
   } else {
-    explore.style.display = "none"
+    explore.style.display = "none";
+    search.style.display = "none";
+    resultsTitle.style.display = "none";
   }
 }
 
+let exploreJobCard1 = document.querySelector("#explore_job_card1");
+let exploreJobCard2 = document.querySelector("#explore_job_card2");
+let exploreJobCard3 = document.querySelector("#explore_job_card3");
+let exploreJobCard4 = document.querySelector("#explore_job_card4");
+let exploreJobCard5 = document.querySelector("#explore_job_card5");
+let exploreContainer1 = document.querySelector("#explore_cont1");
+let exploreContainer2 = document.querySelector("#explore_cont2");
+
+function exploreCategory1() {
+  if (exploreJobCard2.style.display == "flex") {
+    exploreJobCard1.style.display = "flex";
+    exploreJobCard2.style.display = "none";
+    exploreJobCard3.style.display = "none";
+    exploreContainer2.style.display = "none";
+  } else {
+    exploreJobCard2.style.display = "flex";
+    exploreJobCard3.style.display = "flex";
+    exploreContainer2.style.display = "flex";
+  }
+}
+
+function exploreCategory2(){
+  if (exploreJobCard3.style.display == "flex") {
+    exploreJobCard1.style.display = "none";
+    exploreJobCard2.style.display = "flex";
+    exploreJobCard3.style.display = "none";
+    exploreContainer2.style.display = "none";
+  } else {
+    exploreJobCard1.style.display = "flex";
+    exploreJobCard3.style.display = "flex";
+    exploreContainer2.style.display = "flex";
+  }
+}
 /* Adzuna jobs */
 /* function createCard(array) {
   array.forEach((element) => {
