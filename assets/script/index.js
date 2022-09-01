@@ -75,9 +75,9 @@ function createCard(array) {
     let jobCardSpan1 = document.createElement("span");
     let jobCardSpan2 = document.createElement("span");
     let jobCardSpan3 = document.createElement("span");
-    jobCardSpan1.className = "body_job_inf_span";
-    jobCardSpan2.className = "body_job_inf_span";
-    jobCardSpan3.className = "body_job_inf_span";
+    jobCardSpan1.className = "body_job_info_span";
+    jobCardSpan2.className = "body_job_info_span";
+    jobCardSpan3.className = "body_job_info_span";
     jobCardSpan1.innerText = element.contract_time;
     jobCardSpan2.innerText = element.location.area[1];
     jobCardSpan3.innerText = element.category.__CLASS__.label;
@@ -105,6 +105,24 @@ function createCard(array) {
     results.appendChild(jobCard);
   });
 }
+
+let jobForm = document.querySelector("#search_info");
+jobForm.addEventListener("submit", (e) => {
+  e.preventDefault();
+  let jobValue = document.querySelector("#job_search_value");
+  let searchTerm = jobValue.value.split(" ");
+  let url = `https://api.adzuna.com/v1/api/jobs/us/search/1?app_id=d0291057&app_key=e45310af6518f33ea0f2617638ff1d7f&results_per_page=1000&what=${searchTerm[0]}%20${searchTerm[1]}`;
+  fetch(url)
+    .then((res) => res.json())
+    .then((data) => {
+      let exploreJob = document.querySelector("#explore");
+      exploreJob.style.display = "none";
+      let jobResults = data.results;
+      console.log(jobResults);
+      createCard(jobResults);
+    });
+  jobForm.reset();
+});
 
 /* =============================Working================================ */
 /* url = "http://localhost:3000/job";
