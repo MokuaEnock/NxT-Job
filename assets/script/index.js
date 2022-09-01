@@ -60,6 +60,18 @@
   });
 } */
 
+let modal = document.querySelector(".modal");
+let modalCreationButton = document.querySelector(".view_more_job");
+let modalCloseButton = document.querySelector(".close");
+
+modalCloseButton.addEventListener("click", () => {
+  modal.style.display = "none";
+});
+
+modalCreationButton.addEventListener("click", () => {
+  modal.style.display = "block";
+});
+
 function createCardArray(element) {
   let jobCard = document.createElement("div");
   jobCard.className = "category_card";
@@ -134,5 +146,4 @@ jobForm.addEventListener("submit", (e) => {
   jobForm.reset();
 });
 
-
-document.addEventListener('DOMContentLoaded', createCardArray)
+document.addEventListener("DOMContentLoaded", createCardArray);
