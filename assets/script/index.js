@@ -1,5 +1,17 @@
-/* Adzuna jobs */
+/* Dom manipulation */
+let mainPage = document.querySelector("main");
+let catalogue = document.querySelector("#catalogue");
+let explore = document.querySelector("#explore");
+let search = document.querySelector("#search");
+let resultsTitle = document.querySelector("#results_title");
+function domManipulate() {
+  explore.style.display = "none";
+  search.style.display = "none";
+  resultsTitle.style.display = "none";
+}
 
+
+/* Adzuna jobs */
 /* function createCard(array) {
   array.forEach((element) => {
     let jobCard = document.createElement("div");
@@ -67,7 +79,6 @@ let modalCloseButton = document.querySelector(".close");
 modalCloseButton.addEventListener("click", () => {
   modal.style.display = "none";
 });
-
 modalCreationButton.addEventListener("click", () => {
   modal.style.display = "block";
 });
@@ -146,4 +157,4 @@ jobForm.addEventListener("submit", (e) => {
   jobForm.reset();
 });
 
-document.addEventListener("DOMContentLoaded", createCardArray);
+document.addEventListener("DOMContentLoaded", domManipulate);
