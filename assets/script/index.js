@@ -36,6 +36,11 @@ jobForm.addEventListener("submit", (e) => {
   let jobValue = document.querySelector("#job_search_value");
   let searchTerm = jobValue.value.split(" ");
   let url = `https://api.adzuna.com/v1/api/jobs/us/search/1?app_id=d0291057&app_key=e45310af6518f33ea0f2617638ff1d7f&results_per_page=1000&what=${searchTerm[0]}%20${searchTerm[1]}`;
-  console.log(url);
+  fetch(url)
+    .then((res) => res.json())
+    .then((data) => {
+      let jobResults = data.results;
+      console.log(jobResults);
+    });
   jobForm.reset();
 });
