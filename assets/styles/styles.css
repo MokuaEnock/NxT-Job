@@ -186,84 +186,6 @@ main > div {
   height: 100%;
 }
 
-/* ======================log in page=====================*/
-#login {
-  width: 100%;
-  height: 55vw;
-  background-color: #e9ffdb;
-  color: #1b4d3e;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-#login > div {
-  width: 100%;
-  height: 60%;
-  border-radius: 1vw;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-#loginForm > form {
-  width: 30%;
-  font-size: 3vw;
-  height: 100%;
-  border-radius: 1vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  box-shadow: 0.002vw 0.0002vw 0.6vw grey;
-}
-#loginForm > form > input {
-  width: 85%;
-  height: 10%;
-  border-radius: 3vw;
-  border: thin solid #1b4d3e;
-  text-align: center;
-  font-size: 1.8vw;
-  font-weight: 200;
-}
-
-#loginForm > form > button {
-  height: 17%;
-  width: 80%;
-  font-size: 2.5vw;
-  font-weight: 500;
-  border: double 1vw #e9ffdb;
-  background-color: white;
-  font-family: "Source Code Pro", monospace;
-  color: #1b4d3e;
-  border-radius: 3vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-/* ================= services ========================== */
-#services {
-  width: 100%;
-  height: 8vw;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  background-color: white;
-}
-#services > button {
-  width: 30%;
-  height: 100%;
-  background-color: #1b4d3e;
-  border: none;
-  color: #e9ffdb;
-  font-size: 3.7vw;
-  font-weight: 600;
-}
 /* ===================explore job categories========================= */
 #explore {
   width: 100%;
@@ -290,10 +212,6 @@ main > div {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-}
-
-#results_2 {
-  overflow: scroll;
 }
 
 #explore_cont > div {
@@ -396,9 +314,9 @@ main > div {
 #results_title {
   width: 100%;
   height: 5vw;
-  margin-top: 3%;
+  margin-top: 1%;
   background-color: white;
-  margin-bottom: 3%;
+  margin-bottom: 1%;
   font-size: 2.5vw;
   display: flex;
   flex-direction: row;
@@ -703,6 +621,7 @@ main > div {
   font-size: 1.5vw;
   text-align: left;
   display: flex;
+  overflow: scroll;
   flex-direction: row;
   justify-content: center;
   align-items: center;
