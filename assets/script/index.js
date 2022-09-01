@@ -101,7 +101,7 @@ function createCard(array) {
     foot.append(button2);
     jobCard.append(foot);
     // append card
-    let results = document.querySelector("#results_2");
+    let results = document.querySelector("#results");
     results.appendChild(jobCard);
   });
 }
