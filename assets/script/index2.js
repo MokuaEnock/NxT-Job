@@ -44,6 +44,7 @@ function createCardArray(element) {
   let button2 = document.createElement("button");
   button2.className = "save_job";
   let imageb = document.createElement("img");
+  imageb.className = "save_image";
   imageb.src = "./assets/images/save-instagram-outline.png";
   button2.appendChild(imageb);
   let foot = document.createElement("div");
@@ -62,6 +63,7 @@ let catalogue = document.querySelector("#catalogue");
 let explore = document.querySelector("#explore");
 let search = document.querySelector("#search");
 let jobForm = document.querySelector("#search_info");
+let modal = document.querySelector("#modal");
 let exploreJobCard1 = document.querySelector("#explore_job_card1");
 let exploreJobCard2 = document.querySelector("#explore_job_card2");
 let exploreJobCard3 = document.querySelector("#explore_job_card3");
@@ -75,6 +77,7 @@ let exploreJobCardAll3 = document.querySelector("#explore_job_card_all3");
 let exploreJobCardAll4 = document.querySelector("#explore_job_card_all4");
 let exploreJobCardAll5 = document.querySelector("#explore_job_card_all5");
 function domManipulate() {
+  modal.style.display = "none";
   catalogue.addEventListener("click", () => {
     if (explore.style.display == "flex") {
       explore.style.display = "none";
@@ -215,11 +218,11 @@ function domManipulate() {
         for (let i of jobResults) {
           createCardArray(i);
         }
-        console.log(jobResults);
       });
     jobForm.reset();
   });
 
+  function saveJob() {}
   exploreJobCardAll1.addEventListener("click", exploreCategory1);
   exploreJobCardAll2.addEventListener("click", exploreCategory2);
   exploreJobCardAll3.addEventListener("click", exploreCategory3);

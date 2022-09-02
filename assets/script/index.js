@@ -320,3 +320,29 @@ jobForm.addEventListener("submit", (e) => {
 });
 
 document.addEventListener('DOMContentLoaded', domManipulate )
+
+
+() => {
+  for (let i of saveImages) {
+    if ((i.src = "./assets/images/save-instagram-filled.png")) {
+      i.src = "./assets/images/save-instagram-outline.png";
+    } else {
+      i.src = "./assets/images/save-instagram-filled.png";
+    }
+  }let saveImages = document.querySelectorAll(".save_image");
+  let imageButtons = document.querySelectorAll(".save_job");
+  let outline = "./assets/images/save-instagram-outline.png";
+  let filled = "./assets/images/save-instagram-filled.png";
+  console.log(saveImages);
+
+  imageButtons.forEach((element) => {
+    element.addEventListener("click", () => {
+      saveImages.forEach((i) => {
+        if (i.src == outline) {
+          i.src = filled;
+        } else {
+          i.src = outline;
+        }
+      });
+    });
+  });
