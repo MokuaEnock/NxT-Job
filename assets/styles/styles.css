@@ -700,3 +700,52 @@ footer {
   height: 10vw;
   background-color: #1b4d3e;
 }
+
+/* aboout us */
+#aboutUs {
+  width: 100%;
+  height: 45vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#aboutUs > h2 {
+  width: 100%;
+  height: 10%;
+  font-size: 3vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: thin solid;
+}
+
+#aboutUsPar1 {
+  width: 70%;
+  height: 30%;
+  font-size: 2vw;
+  line-height: 3vw;
+  word-spacing: 0.4vw;
+  border: thin solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#aboutUsPar2 {
+  width: 90%;
+  height: 40%;
+  font-size: 2vw;
+  line-height: 3vw;
+  word-spacing: 0.4vw;
+  border: thin solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
