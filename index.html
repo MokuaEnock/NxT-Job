@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
   <title>NxT Job</title>
-
+  <link render rel="script" href="./assets/script/index2.js">
 </head>
 <!--"  -->
 
@@ -38,7 +38,14 @@
   <!-- navigation bar -->
   <nav>
     <div>
-      <a href="#">Category</a>
+      <select name="jobCats" id="jobCats">
+        <option value="services">Services</option>
+        <option value="frontdev"><a href="#">Frontend Development</a></option>
+        <option value="mlearning"><a href="#">Machine Learning</a></option>
+        <option value="fullsatck"><a href="#">Fullstack Development</a></option>
+        <option value="mobile"><a href="#">Mobile Development</a></option>
+        <option value="backend"><a href="#">backend Development</a></option>
+      </select>
       <a href="#">About Us</a>
       <a href="#">Contact</a>
     </div>
