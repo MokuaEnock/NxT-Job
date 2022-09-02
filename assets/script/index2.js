@@ -29,9 +29,9 @@ function createCardArray(element) {
   jobCardSpan1.className = "body_job_info_span";
   jobCardSpan2.className = "body_job_info_span";
   jobCardSpan3.className = "body_job_info_span";
-  jobCardSpan1.innerText = element.contract_time;
+  jobCardSpan1.innerText = element.salary_min || element.salary_max;
   jobCardSpan2.innerText = element.location.area[1];
-  jobCardSpan3.innerText = element.category.__CLASS__.label;
+  jobCardSpan3.innerText = element.category.__CLASS__.label || element.category.label;
   jobCardSmallBody.appendChild(jobCardSpan1);
   jobCardSmallBody.append(jobCardSpan2);
   jobCardSmallBody.append(jobCardSpan3);
@@ -254,7 +254,6 @@ function domManipulate() {
     exploreContainer1.style.display = "flex";
     exploreContainer2.style.display = "flex";
   });
-  function saveJob() {}
   exploreJobCardAll1.addEventListener("click", exploreCategory1);
   exploreJobCardAll2.addEventListener("click", exploreCategory2);
   exploreJobCardAll3.addEventListener("click", exploreCategory3);
