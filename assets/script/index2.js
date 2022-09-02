@@ -64,6 +64,8 @@ let explore = document.querySelector("#explore");
 let search = document.querySelector("#search");
 let jobForm = document.querySelector("#search_info");
 let modal = document.querySelector("#modal");
+let allResults = document.querySelector("#results");
+let searchClose = document.querySelector(".close1");
 let exploreJobCard1 = document.querySelector("#explore_job_card1");
 let exploreJobCard2 = document.querySelector("#explore_job_card2");
 let exploreJobCard3 = document.querySelector("#explore_job_card3");
@@ -77,6 +79,7 @@ let exploreJobCardAll3 = document.querySelector("#explore_job_card_all3");
 let exploreJobCardAll4 = document.querySelector("#explore_job_card_all4");
 let exploreJobCardAll5 = document.querySelector("#explore_job_card_all5");
 function domManipulate() {
+  searchClose.style.display = "none";
   modal.style.display = "none";
   catalogue.addEventListener("click", () => {
     if (explore.style.display == "flex") {
@@ -99,6 +102,9 @@ function domManipulate() {
       fetch(url)
         .then((res) => res.json())
         .then((data) => {
+          allResults.innerHTML = "";
+          searchClose.style.display = "flex";
+
           let jobResults = data.results.reverse();
           for (let i of jobResults) {
             createCardArray(i);
@@ -123,6 +129,9 @@ function domManipulate() {
       fetch(url)
         .then((res) => res.json())
         .then((data) => {
+          allResults.innerHTML = "";
+          searchClose.style.display = "flex";
+
           let jobResults = data.results.reverse();
           for (let i of jobResults) {
             createCardArray(i);
@@ -147,6 +156,9 @@ function domManipulate() {
       fetch(url)
         .then((res) => res.json())
         .then((data) => {
+          allResults.innerHTML = "";
+          searchClose.style.display = "flex";
+
           let jobResults = data.results.reverse();
           for (let i of jobResults) {
             createCardArray(i);
@@ -170,6 +182,9 @@ function domManipulate() {
       fetch(url)
         .then((res) => res.json())
         .then((data) => {
+          allResults.innerHTML = "";
+          searchClose.style.display = "flex";
+
           let jobResults = data.results.reverse();
           for (let i of jobResults) {
             createCardArray(i);
@@ -192,6 +207,9 @@ function domManipulate() {
       fetch(url)
         .then((res) => res.json())
         .then((data) => {
+          allResults.innerHTML = "";
+          searchClose.style.display = "flex";
+
           let jobResults = data.results.reverse();
           for (let i of jobResults) {
             createCardArray(i);
@@ -212,6 +230,8 @@ function domManipulate() {
     fetch(url)
       .then((res) => res.json())
       .then((data) => {
+        allResults.innerHTML = "";
+        searchClose.style.display = "flex";
         let exploreJob = document.querySelector("#explore");
         exploreJob.style.display = "none";
         let jobResults = data.results.reverse();
@@ -222,6 +242,18 @@ function domManipulate() {
     jobForm.reset();
   });
 
+  searchClose.addEventListener("click", () => {
+    allResults.innerHTML = "";
+    explore.style.display = "flex";
+    searchClose.style.display = "none";
+    exploreJobCard1.style.display = "flex";
+    exploreJobCard2.style.display = "flex";
+    exploreJobCard3.style.display = "flex";
+    exploreJobCard4.style.display = "flex";
+    exploreJobCard5.style.display = "flex";
+    exploreContainer1.style.display = "flex";
+    exploreContainer2.style.display = "flex";
+  });
   function saveJob() {}
   exploreJobCardAll1.addEventListener("click", exploreCategory1);
   exploreJobCardAll2.addEventListener("click", exploreCategory2);
