@@ -67,6 +67,8 @@ let explore = document.querySelector("#explore");
 let search = document.querySelector("#search");
 let jobForm = document.querySelector("#search_info");
 let modal = document.querySelector("#modal");
+let aboutusButton = document.querySelector("#aboutusButton");
+let aboutUs = document.querySelector("#aboutUs");
 let allResults = document.querySelector("#results");
 let searchClose = document.querySelector(".close1");
 let exploreJobCard1 = document.querySelector("#explore_job_card1");
@@ -86,6 +88,7 @@ function domManipulate() {
   modal.style.display = "none";
   explore.style.display = "none";
   search.style.display = "none";
+  aboutUs.style.display = "none";
   catalogue.addEventListener("click", () => {
     if (explore.style.display == "flex") {
       explore.style.display = "none";
@@ -95,7 +98,15 @@ function domManipulate() {
       search.style.display = "none";
     }
   });
-
+  aboutusButton.addEventListener("click", () => {
+    if (aboutUs.style.display == "none") {
+      aboutUs.style.display = "flex";
+      mainPage.style.display = "none"
+    } else {
+      aboutUs.style.display = "none";
+      mainPage.style.display = "flex"
+    }
+  });
   function exploreCategory1() {
     if (exploreJobCard2.style.display == "flex") {
       exploreJobCard1.style.display = "flex";

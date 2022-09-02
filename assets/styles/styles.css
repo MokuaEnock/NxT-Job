@@ -140,7 +140,6 @@ nav > div {
 
 nav a {
   color: #1b4d3e;
-  font-weight: 600;
   width: 15%;
   height: 100%;
   display: flex;
@@ -155,6 +154,7 @@ nav a {
 #jobCats {
   -webkit-appearance: none;
   -moz-appearance: none;
+  cursor: pointer;
   width: 30%;
   height: 100%;
   border: none;
@@ -167,6 +167,10 @@ nav a {
 
 #jobCats:focus {
   outline: none;
+}
+
+#aboutusButton{
+  cursor: pointer;
 }
 /* ===================main================================= */
 main {
@@ -708,7 +712,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 #aboutUs > h2 {
@@ -719,7 +723,7 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: thin solid;
+  background-color: white;
 }
 
 #aboutUsPar1 {
@@ -728,7 +732,6 @@ footer {
   font-size: 2vw;
   line-height: 3vw;
   word-spacing: 0.4vw;
-  border: thin solid;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -742,7 +745,6 @@ footer {
   font-size: 2vw;
   line-height: 3vw;
   word-spacing: 0.4vw;
-  border: thin solid;
   display: flex;
   flex-direction: column;
   align-items: center;
