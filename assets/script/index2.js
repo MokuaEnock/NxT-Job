@@ -29,7 +29,7 @@ function createCardArray(element) {
   jobCardSpan1.className = "body_job_info_span";
   jobCardSpan2.className = "body_job_info_span";
   jobCardSpan3.className = "body_job_info_span";
-  jobCardSpan1.innerText = element.salary_min || element.salary_max;
+  jobCardSpan1.innerText = element.salary_min || element.salary_max ||"";
   jobCardSpan2.innerText = element.location.area[1];
   jobCardSpan3.innerText = element.category.__CLASS__.label || element.category.label;
   jobCardSmallBody.appendChild(jobCardSpan1);
@@ -38,7 +38,9 @@ function createCardArray(element) {
   jobCard.append(jobCardSmallBody);
 
   //card footer
-  let button1 = document.createElement("button");
+  let button1 = document.createElement("a");
+  button1.setAttribute('href', element.redirect_url)
+  button1.setAttribute('target', "_blank")
   button1.className = "view_more_job";
   button1.innerHTML = "Learn More";
   let button2 = document.createElement("button");
