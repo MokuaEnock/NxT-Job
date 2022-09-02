@@ -169,7 +169,7 @@ nav a {
   outline: none;
 }
 
-#aboutusButton{
+#aboutusButton, #findjobNav{
   cursor: pointer;
 }
 /* ===================main================================= */
