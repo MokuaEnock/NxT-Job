@@ -83,6 +83,8 @@ let exploreJobCardAll5 = document.querySelector("#explore_job_card_all5");
 function domManipulate() {
   searchClose.style.display = "none";
   modal.style.display = "none";
+  explore.style.display = "none";
+  search.style.display = "none";
   catalogue.addEventListener("click", () => {
     if (explore.style.display == "flex") {
       explore.style.display = "none";
