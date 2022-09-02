@@ -67,6 +67,7 @@ let explore = document.querySelector("#explore");
 let search = document.querySelector("#search");
 let jobForm = document.querySelector("#search_info");
 let modal = document.querySelector("#modal");
+let exploreButton = document.querySelector("#exploreButton");
 let findjobNav = document.querySelector("#findjobNav");
 let aboutusButton = document.querySelector("#aboutusButton");
 let aboutUs = document.querySelector("#aboutUs");
@@ -90,13 +91,36 @@ function domManipulate() {
   explore.style.display = "none";
   search.style.display = "none";
   aboutUs.style.display = "none";
+
+  exploreButton.addEventListener("click", () => {
+    if (explore.style.display == "none") {
+      explore.style.display = "flex"
+      search.style.display = "none";
+      mainPage.style.display = "none";
+      aboutUs.style.display = "none";
+
+    }
+    else{
+      explore.style.display = "none"
+      search.style.display = "none";
+      mainPage.style.display = "flex";
+      aboutUs.style.display = "none";
+    }
+  });
+
   findjobNav.addEventListener("click", () => {
     if (search.style.display == "none") {
       search.style.display = "flex";
       mainPage.style.display = "none";
+      aboutUs.style.display = "none";
+      explore.style.display = "none"
+
     } else {
       search.style.display = "none";
+      explore.style.display = "none"
+
       mainPage.style.display = "flex";
+      aboutUs.style.display = "none";
     }
   });
   catalogue.addEventListener("click", () => {
@@ -113,9 +137,15 @@ function domManipulate() {
     if (aboutUs.style.display == "none") {
       aboutUs.style.display = "flex";
       mainPage.style.display = "none";
+      search.style.display = "none";
+      explore.style.display = "none"
+
     } else {
       aboutUs.style.display = "none";
       mainPage.style.display = "flex";
+      search.style.display = "none";
+      explore.style.display = "none"
+
     }
   });
   function exploreCategory1() {
