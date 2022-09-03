@@ -94,14 +94,12 @@ function domManipulate() {
 
   exploreButton.addEventListener("click", () => {
     if (explore.style.display == "none") {
-      explore.style.display = "flex"
+      explore.style.display = "flex";
       search.style.display = "none";
       mainPage.style.display = "none";
       aboutUs.style.display = "none";
-
-    }
-    else{
-      explore.style.display = "none"
+    } else {
+      explore.style.display = "none";
       search.style.display = "none";
       mainPage.style.display = "flex";
       aboutUs.style.display = "none";
@@ -113,11 +111,10 @@ function domManipulate() {
       search.style.display = "flex";
       mainPage.style.display = "none";
       aboutUs.style.display = "none";
-      explore.style.display = "none"
-
+      explore.style.display = "none";
     } else {
       search.style.display = "none";
-      explore.style.display = "none"
+      explore.style.display = "none";
 
       mainPage.style.display = "flex";
       aboutUs.style.display = "none";
@@ -138,14 +135,12 @@ function domManipulate() {
       aboutUs.style.display = "flex";
       mainPage.style.display = "none";
       search.style.display = "none";
-      explore.style.display = "none"
-
+      explore.style.display = "none";
     } else {
       aboutUs.style.display = "none";
       mainPage.style.display = "flex";
       search.style.display = "none";
-      explore.style.display = "none"
-
+      explore.style.display = "none";
     }
   });
   function exploreCategory1() {
@@ -168,6 +163,9 @@ function domManipulate() {
           for (let i of jobResults) {
             createCardArray(i);
           }
+        })
+        .catch((err) => {
+          results.innerHTML = err;
         });
     } else {
       exploreJobCard2.style.display = "flex";
@@ -195,6 +193,9 @@ function domManipulate() {
           for (let i of jobResults) {
             createCardArray(i);
           }
+        })
+        .catch((err) => {
+          results.innerHTML = err;
         });
     } else {
       exploreJobCard1.style.display = "flex";
@@ -222,6 +223,9 @@ function domManipulate() {
           for (let i of jobResults) {
             createCardArray(i);
           }
+        })
+        .catch((err) => {
+          results.innerHTML = err;
         });
     } else {
       exploreJobCard1.style.display = "flex";
@@ -248,6 +252,9 @@ function domManipulate() {
           for (let i of jobResults) {
             createCardArray(i);
           }
+        })
+        .catch((err) => {
+          results.innerHTML = err;
         });
     } else {
       exploreJobCard5.style.display = "flex";
@@ -273,6 +280,9 @@ function domManipulate() {
           for (let i of jobResults) {
             createCardArray(i);
           }
+        })
+        .catch((err) => {
+          results.innerHTML = err;
         });
     } else {
       exploreJobCard4.style.display = "flex";
@@ -297,6 +307,9 @@ function domManipulate() {
         for (let i of jobResults) {
           createCardArray(i);
         }
+      })
+      .catch((err) => {
+        results.innerHTML = err;
       });
     jobForm.reset();
   });
