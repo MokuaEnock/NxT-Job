@@ -49,6 +49,7 @@ function createCardArray(element) {
   let imageb = document.createElement("img");
   imageb.className = "save_image";
   imageb.src = "./assets/images/save-instagram-outline.png";
+  imageb.setAttribute("id", element.id);
   button2.appendChild(imageb);
   let foot = document.createElement("div");
   foot.className = "category_card_foot";
