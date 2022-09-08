@@ -62,6 +62,8 @@ function createCardArray(element) {
 }
 
 /* Dom Manipulation */
+let outlineImg = "./assets/images/save-instagram-outline.png";
+let fillImg = "./assets/images/save-instagram-filled.png";
 let mainPage = document.querySelector("main");
 let catalogue = document.querySelector("#catalogue");
 let explore = document.querySelector("#explore");
@@ -163,6 +165,19 @@ function domManipulate() {
           let jobResults = data.results.reverse();
           for (let i of jobResults) {
             createCardArray(i);
+          }
+          let clickButs = document.getElementsByClassName("save_image");
+          let clickCont = document.querySelectorAll(".save_job");
+          console.log(clickCont);
+          for (var i = 0; i < clickCont.length; i++) {
+            clickCont[i].addEventListener(
+              "click",
+              () => {
+                let element  = clickCont[i]
+                console.log(element)
+              },
+              false
+            );
           }
         })
         .catch((err) => {
