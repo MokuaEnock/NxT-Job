@@ -179,11 +179,53 @@ main {
   height: 40vw;
 }
 
-/* about us */
-#section3 {
+/* about us ==============================================*/
+
+#aboutUs {
   width: 100%;
+  height: 38vw;
   background-color: white;
-  height: 40vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#aboutUs>h2 {
+  width: 100%;
+  height: 10%;
+  font-size: 2.5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-decoration: underline;
+}
+
+#aboutUsPar1 {
+  width: 70%;
+  height: 30%;
+  font-size: 1.8vw;
+  line-height: 3vw;
+  word-spacing: 0.4vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#aboutUsPar2 {
+  width: 90%;
+  height: 40%;
+  font-size: 1.8vw;
+  line-height: 3vw;
+  word-spacing: 0.4vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 /* footer */
