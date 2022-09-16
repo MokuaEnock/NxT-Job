@@ -7,8 +7,49 @@ body {
   align-items: center;
   scroll-behavior: smooth;
 }
+
 * {
   padding: 0;
   margin: 0;
   font-family: "Didact Gothic", sans-serif;
+}
+
+/* header */
+
+header {
+  width: 100%;
+  height: 5vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  border: thin solid;
+}
+
+/* main */
+main {
+  width: 98%;
+  height: 45vw;
+  margin-top: 0.5%;
+  border: thin solid;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#main_cont1 {
+  width: 49%;
+  height: 100%;
+  border: thin solid;
+}
+
+#main_cont2 {
+  width: 49%;
+  height: 100%;
+  border: thin solid;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
 }
