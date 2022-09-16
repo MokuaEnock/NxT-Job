@@ -531,7 +531,7 @@ main {
 #contact_img {
   width: 100%;
   height: 70%;
-  background-color: #e9ffdb;
+  background-color: #ffffff;
   border-top-left-radius: 40vw;
   border-bottom-left-radius: 40vw;
   border-top-right-radius: 40vw;
@@ -544,7 +544,7 @@ main {
 }
 
 #contact_img>img {
-  width: 80%;
+  width: 65%;
 }
 
 /* footer */
