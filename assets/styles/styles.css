@@ -48,13 +48,17 @@ header strong {
 #head_info {
   width: 60%;
   height: 80%;
-  border: thin solid #e9ffdb;
 
 }
 
 header a {
+  font-size: 2vw;
   color: #e9ffdb;
   text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: overline;
 }
 
 #head_start {
