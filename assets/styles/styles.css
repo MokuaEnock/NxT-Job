@@ -380,6 +380,28 @@ main {
 #contact_socials {
   width: 10%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.social {
+  width: 40%;
+  height: 9%;
+  margin-top: 15%;
+  margin-left: 10%;
+  cursor: pointer;
+}
+
+.social>img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+
+.social>img:hover {
+  opacity: 1;
 }
 
 #contact_body {
