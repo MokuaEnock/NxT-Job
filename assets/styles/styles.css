@@ -164,16 +164,64 @@ main {
 }
 
 
-/* section 1 */
+/* how it works = ====================================== */
 
 #section1 {
   width: 100%;
   background-color: white;
   height: 40vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#section1>h2 {
+  font-size: 4vw;
+  width: 100%;
+  height: 15%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#how_cont {
+  width: 100%;
+  height: 85%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+}
+
+#how_cont>div {
+  width: 28%;
+  height: 90%;
+  background-color: #e9ffdb;
+}
+
+#courses {
+  top: 0;
+  left: 2%;
+  position: absolute;
+}
+
+#freelance {
+  left: 36%;
+  position: absolute;
+}
+
+#fulltime {
+  right: 2%;
+  position: absolute;
+  bottom: 0;
 }
 
 
-/* section 2 */
+
+/* about us ==================================== */
 #aboutUs {
   width: 100%;
   height: 40vw;
@@ -198,12 +246,12 @@ main {
 
 #aboutus_cont1>img {
   width: 90%;
-  border: 3vw solid #e9ffdb;
+  border: 3vw solid #ffff;
 }
 
 #aboutus_cont2 {
   height: 100%;
-  background-color: #e9ffdb;
+  background-color: #ffff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -261,7 +309,7 @@ main {
 
 }
 
-/* about us ==============================================*/
+/* section 3 ==============================================*/
 
 #section3 {
   width: 100%;
