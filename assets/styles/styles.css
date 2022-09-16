@@ -162,3 +162,12 @@ main {
   height: 30%;
 
 }
+
+
+/* section 1 */
+
+#section1{
+  width: 100%;
+  background-color: white;
+  height: 40vw;
+}
