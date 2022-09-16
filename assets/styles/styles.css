@@ -200,6 +200,41 @@ main {
   width: 28%;
   height: 90%;
   background-color: #e9ffdb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#how_cont>div>* {
+  width: 100%;
+}
+
+.how_img {
+  height: 50%;
+}
+
+.how_img>img {
+  width: 100%;
+}
+
+.how_par {
+  height: 39%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.how_par>h3 {
+  font-size: 2.3vw;
+  border-bottom: thin solid #1b4d3e;
+}
+
+.how_par>p {
+  font-size: 1.8vw;
+  margin-top: 3%;
 }
 
 #courses {
@@ -229,7 +264,7 @@ main {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-color: #ffff;
+  background-color: #e9ffdb;
 }
 
 #aboutUs>* {
@@ -246,12 +281,12 @@ main {
 
 #aboutus_cont1>img {
   width: 90%;
-  border: 3vw solid #ffff;
+  border: 3vw solid #e9ffdb;
 }
 
 #aboutus_cont2 {
   height: 100%;
-  background-color: #ffff;
+  background-color: #e9ffdb;
   display: flex;
   flex-direction: column;
   align-items: center;
