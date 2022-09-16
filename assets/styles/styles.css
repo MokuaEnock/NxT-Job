@@ -23,14 +23,14 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  border: thin solid;
+  background-color: #1b4d3e;
 }
 
 /* main ========================================================== */
 main {
   width: 98%;
   height: 45.5vw;
-  border: thin solid;
+
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -60,38 +60,37 @@ main {
 #main_cont1_1_1 {
   width: 80%;
   height: 60%;
-  border: thin solid;
+  background-color: #1b4d3e;
+  border-bottom-left-radius: 11vw;
+
 }
 
 #main_cont1_1_2 {
   width: 80%;
   height: 40%;
-  border: thin solid;
-}
-
-#main_cont1_2>* {
-  width: 80%;
-  height: 48%;
-  border: thin solid;
+  background-color: white;
+  border-top-right-radius: 11vw;
 }
 
 #main_cont1_2_1 {
   width: 80%;
   height: 40%;
-  border: thin solid;
+  background-color: #ffff;
+  border-bottom-right-radius: 11vw;
 }
 
 #main_cont1_2_2 {
   width: 80%;
   height: 60%;
-  border: thin solid;
+  border-top-left-radius: 9vw;
+  background-color: #1b4d3e;
 }
 
 /* main container 2 */
 #main_cont2 {
   width: 49%;
   height: 100%;
-  border: thin solid;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -100,7 +99,7 @@ main {
 
 #main_cont2>* {
   width: 100%;
-  border: thin solid;
+
 }
 
 #main_cont2_head {
@@ -125,7 +124,7 @@ main {
 #main_cont2_button>button {
   width: 40%;
   height: 60%;
-  border: thin solid;
+
   font-size: 1.8vw;
   display: flex;
   flex-direction: row;
