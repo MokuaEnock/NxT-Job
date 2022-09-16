@@ -61,7 +61,8 @@ main {
   width: 80%;
   height: 60%;
   background-color: #1b4d3e;
-  border-bottom-left-radius: 11vw;
+  border-bottom-left-radius: 9vw;
+  border-bottom-right-radius: 9vw;
 
 }
 
@@ -69,20 +70,24 @@ main {
   width: 80%;
   height: 40%;
   background-color: white;
-  border-top-right-radius: 11vw;
+  border-top-right-radius: 9vw;
+  border-top-left-radius: 9vw;
 }
 
 #main_cont1_2_1 {
   width: 80%;
   height: 40%;
   background-color: #ffff;
-  border-bottom-right-radius: 11vw;
+  border-bottom-right-radius: 9vw;
+  border-bottom-left-radius: 9vw;
+
 }
 
 #main_cont1_2_2 {
   width: 80%;
   height: 60%;
   border-top-left-radius: 9vw;
+  border-top-right-radius: 9vw;
   background-color: #1b4d3e;
 }
 
@@ -199,7 +204,7 @@ main {
 #how_cont>div {
   width: 28%;
   height: 90%;
-  background-color: #e9ffdb;
+  background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -212,10 +217,13 @@ main {
 
 .how_img {
   height: 50%;
+  background-color: white;
 }
 
 .how_img>img {
   width: 100%;
+  background-color: white;
+
 }
 
 .how_par {
