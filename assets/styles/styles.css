@@ -166,8 +166,30 @@ main {
 
 /* section 1 */
 
-#section1{
+#section1 {
   width: 100%;
   background-color: white;
   height: 40vw;
+}
+
+
+/* section 2 */
+#section2 {
+  width: 100%;
+  height: 40vw;
+}
+
+/* about us */
+#section3 {
+  width: 100%;
+  background-color: white;
+  height: 40vw;
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+  background-color: #1b4d3e;
+  height: 20vw;
 }
