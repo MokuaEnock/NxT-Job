@@ -14,7 +14,7 @@ body {
   font-family: "Didact Gothic", sans-serif;
 }
 
-/* header */
+/* header ==========================================================*/
 
 header {
   width: 100%;
@@ -26,7 +26,7 @@ header {
   border: thin solid;
 }
 
-/* main */
+/* main ========================================================== */
 main {
   width: 98%;
   height: 45vw;
@@ -44,12 +44,78 @@ main {
   border: thin solid;
 }
 
+/* main container 2 */
 #main_cont2 {
   width: 49%;
   height: 100%;
   border: thin solid;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#main_cont2>* {
+  width: 100%;
+  border: thin solid;
+}
+
+#main_cont2_head {
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.8vw;
+
+}
+
+#main_cont2_button {
+  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+  height: 15%;
+
+}
+
+#main_cont2_button>button {
+  width: 30%;
+  height: 60%;
+  border: thin solid;
+  font-size: 1.8vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.button_span1 {
+  width: 70%;
+  height: 100%;
+  background-color: #ffff;
+  color: #1b4d3e;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-right: thin solid;
+}
+
+.button_span2 {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.button_span2>img {
+  height: 70%;
+}
+
+#main_cont2_info {
+  height: 30%;
+
 }
