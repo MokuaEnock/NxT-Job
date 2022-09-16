@@ -24,18 +24,58 @@ header {
   align-items: center;
   justify-content: space-evenly;
   background-color: #1b4d3e;
+  color: #e9ffdb;
 }
 
-/* main ========================================================== */
-main {
-  width: 98%;
-  height: 45.5vw;
-
+header>div {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
 }
+
+#head_logo {
+  width: 15%;
+  height: 100%;
+  font-size: 3.5vw;
+}
+
+
+header strong {
+  color: white;
+}
+
+#head_info {
+  width: 60%;
+  height: 80%;
+  border: thin solid #e9ffdb;
+
+}
+
+header a {
+  color: #e9ffdb;
+  text-decoration: none;
+}
+
+#head_start {
+  width: 15%;
+  height: 100%;
+
+}
+
+
+
+/* main ========================================================== */
+main {
+  width: 98%;
+  height: 45.5vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
 
 /* main container 1 */
 
