@@ -73,7 +73,11 @@ header a:hover {
 main {
     width: 100%;
     height: 45.5vw;
-background-color: #e9ffdb;
+    background: repeating-linear-gradient(180deg,
+            #1b4d3e,
+            #1b4d3e .1vw,
+            #e9ffdb .1vw,
+            #e9ffdb 10vw);
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -81,7 +85,7 @@ background-color: #e9ffdb;
 
 /* main container 1 */
 
-#main_cont1 {
+.main_cont1 {
     width: 49%;
     height: 100%;
     display: flex;
@@ -90,7 +94,7 @@ background-color: #e9ffdb;
     justify-content: space-evenly;
 }
 
-#main_cont1>* {
+.main_cont1>* {
     width: 50%;
     height: 100%;
     display: flex;
@@ -99,7 +103,7 @@ background-color: #e9ffdb;
     justify-content: space-evenly;
 }
 
-#main_cont1_1_1 {
+.main_cont1_1_1 {
     width: 80%;
     height: 60%;
     background-color: #1b4d3e;
@@ -108,7 +112,7 @@ background-color: #e9ffdb;
 
 }
 
-#main_cont1_1_2 {
+.main_cont1_1_2 {
     width: 80%;
     height: 40%;
     background-color: white;
@@ -116,7 +120,7 @@ background-color: #e9ffdb;
     border-top-left-radius: 9vw;
 }
 
-#main_cont1_2_1 {
+.main_cont1_2_1 {
     width: 80%;
     height: 40%;
     background-color: #ffff;
@@ -125,7 +129,7 @@ background-color: #e9ffdb;
 
 }
 
-#main_cont1_2_2 {
+.main_cont1_2_2 {
     width: 80%;
     height: 60%;
     border-top-left-radius: 9vw;
