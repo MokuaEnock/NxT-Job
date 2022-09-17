@@ -115,6 +115,8 @@ main {
     justify-content: center;
     align-items: flex-end;
 
+
+
 }
 
 .main_par {
@@ -125,7 +127,7 @@ main {
     border: double 1vw #e9ffdb;
     border-radius: 50%;
     margin-bottom: 1%;
-    font-size: 3.5vw;
+    font-size: 2.8vw;
     text-decoration: none;
     display: flex;
     flex-direction: row;
@@ -139,6 +141,9 @@ main {
     background-color: white;
     border-top-right-radius: 9vw;
     border-top-left-radius: 9vw;
+    opacity: 0.9;
+
+
 }
 
 .main_cont1_2_1 {
@@ -147,6 +152,7 @@ main {
     background-color: #ffff;
     border-bottom-right-radius: 9vw;
     border-bottom-left-radius: 9vw;
+    opacity: 0.9;
 
 }
 
@@ -156,6 +162,11 @@ main {
     border-top-left-radius: 9vw;
     border-top-right-radius: 9vw;
     background-color: #1b4d3e;
+    padding-top: 1%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 /* headings ================================= */
