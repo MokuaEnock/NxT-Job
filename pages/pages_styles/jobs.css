@@ -85,7 +85,7 @@ main {
 /* categories ========================================*/
 #explore {
     width: 99%;
-    height: fit-content;
+    height: max-content;
     margin-top: 2%;
     background-color: white;
     display: flex;
@@ -112,7 +112,7 @@ main {
 
 #explore_cont>div {
     width: 100%;
-    height: fit-content;
+    height: max-content;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -298,7 +298,7 @@ main {
 /* results ====================================*/
 #results {
     width: 99%;
-    height: fit-content;
+    height: max-content;
     background-color: white;
     padding: 1%;
     display: grid;
@@ -447,7 +447,7 @@ main {
 
 #recommend>* {
     width: 100%;
-    height: fit-content;
+    height: max-content;
     background-color: white;
     padding: 1%;
     display: grid;
@@ -469,7 +469,7 @@ main {
 
 #recommend_cont2 {
     width: 100%;
-    height: fit-content;
+    height: max-content;
     background-color: white;
     padding: 1%;
     display: grid;
