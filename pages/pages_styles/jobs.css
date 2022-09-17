@@ -92,25 +92,25 @@ main {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-  }
+}
 
-  #explore > h2 {
+#explore>h2 {
     height: 4%;
     font-size: 4vw;
     margin-left: 3%;
     text-decoration: underline;
-  }
+}
 
-  #explore_cont {
+#explore_cont {
     height: 92%;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-  }
+}
 
-  #explore_cont > div {
+#explore_cont>div {
     width: 100%;
     height: fit-content;
     display: flex;
@@ -118,9 +118,9 @@ main {
     justify-content: space-evenly;
     align-items: center;
     overflow: hidden;
-  }
+}
 
-  .explore_job_card {
+.explore_job_card {
     width: 28%;
     margin: 1.5%;
     height: 32vw;
@@ -131,9 +131,9 @@ main {
     align-items: center;
     background-color: #e9ffdb;
     box-shadow: 0.02vw 0.02vw 1vw grey;
-  }
+}
 
-  .explore_job_card_image {
+.explore_job_card_image {
     height: 45%;
     border-radius: 1vw;
     width: 97%;
@@ -141,14 +141,15 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  .explore_job_card_image > img {
+}
+
+.explore_job_card_image>img {
     height: 100%;
     width: 100%;
     border-radius: inherit;
-  }
+}
 
-  .explore_job_card_title {
+.explore_job_card_title {
     width: 100%;
     height: 10%;
     display: flex;
@@ -157,8 +158,9 @@ main {
     align-items: center;
     background-color: white;
     font-size: 1.7vw;
-  }
-  .explore_job_card_desc {
+}
+
+.explore_job_card_desc {
     width: 98%;
     height: 30%;
     font-size: 1.7vw;
@@ -166,8 +168,9 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  .explore_job_card_buttons {
+}
+
+.explore_job_card_buttons {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -175,9 +178,9 @@ main {
     width: 100%;
     height: 12%;
     border-radius: inherit;
-  }
+}
 
-  .explore_job_card_more {
+.explore_job_card_more {
     width: 40%;
     height: 90%;
     display: flex;
@@ -191,9 +194,9 @@ main {
     color: #1b4d3e;
     font-size: 2vw;
     border: 1vw;
-  }
+}
 
-  .explore_job_card_all {
+.explore_job_card_all {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -206,7 +209,7 @@ main {
     font-size: 2vw;
     border: 1vw;
     cursor: pointer;
-  }
+}
 
 /* find job =======================================*/
 #search {
@@ -217,18 +220,18 @@ main {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-  }
+}
 
-  #search p {
+#search p {
     font-size: 1.8vw;
-  }
+}
 
-  #search h2 {
+#search h2 {
     font-size: 5vw;
     font-weight: 800;
-  }
+}
 
-  #search_info {
+#search_info {
     width: 55%;
     height: 29%;
     border: thin solid;
@@ -238,18 +241,18 @@ main {
     align-items: center;
     border-radius: 5vw;
     background-color: white;
-  }
+}
 
-  #search_info > span {
+#search_info>span {
     width: 70%;
     height: 90%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-  }
+}
 
-  #search_info > span > input {
+#search_info>span>input {
     width: 100%;
     height: 100%;
     font-size: 2vw;
@@ -260,13 +263,13 @@ main {
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
-  }
+}
 
-  #search_info > span > input:focus {
+#search_info>span>input:focus {
     outline: none;
-  }
+}
 
-  #search_info button {
+#search_info button {
     width: 30%;
     height: 100%;
     border: none;
@@ -277,8 +280,9 @@ main {
     font-size: 3vw;
     font-weight: 600;
     cursor: pointer;
-  }
-  .close1 {
+}
+
+.close1 {
     width: 5%;
     border-radius: 6vw;
     cursor: pointer;
@@ -288,14 +292,135 @@ main {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-  }
+}
 
 
 /* results ====================================*/
 #results {
-    width: 100%;
-    height: 40vw;
+    width: 99%;
+    height: fit-content;
     background-color: white;
+    padding: 1%;
+    display: grid;
+    grid-template-columns: repeat(3, 27%);
+    column-gap: 4.5%;
+    row-gap: 2vw;
+}
+
+.category_card {
+    height: 27vw;
+    border: thick solid #e9ffdb;
+    margin-left: 3%;
+    border-radius: .4vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.category_card_heading {
+    width: 100%;
+    height: 25%;
+    background-color: #e9ffdb;
+}
+
+.category_card_heading1 {
+    width: 100%;
+    height: 50%;
+    font-weight: 600;
+    font-size: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+.category_card_heading2 {
+    width: 100%;
+    height: 50%;
+    font-size: 1.6vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.category_card_body {
+    width: 96%;
+    height: 45%;
+    padding: 2%;
+    font-size: 1.5vw;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+.category_card_info {
+    width: 100%;
+    height: 15%;
+    background-color: #e9ffdb;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.body_job_info_span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    overflow-x: hidden;
+    padding-left: 2%;
+    padding-right: 2%;
+    height: 80%;
+    font-size: 1.8vw;
+    background-color: #ffffff;
+}
+
+.category_card_footer {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category_card_learn_more {
+    color: #1b4d3e;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.8vw;
+    height: 80%;
+    width: 40%;
+    margin-left: 4%;
+    display: flex;
+    padding-right: 2%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #e9ffdb;
+    border: thin solid #e9ffdb;
+}
+
+.category_card_image {
+    cursor: pointer;
+    width: 30%;
+    height: 80%;
+    border: thin solid transparent;
+    background-color: transparent;
+}
+
+.category_card_image>img {
+    height: 100%;
 }
 
 
@@ -305,6 +430,8 @@ main {
     width: 100%;
     height: 40vw;
 }
+
+
 
 /* contact form */
 
