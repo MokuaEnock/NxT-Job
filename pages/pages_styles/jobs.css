@@ -112,10 +112,246 @@ main {
 
 /* contact form */
 
-#contact {
-    width: 100%;
-    height: 40vw;
+#contact_me {
+    width: 99%;
+    margin-top: 1%;
+    height: 50vw;
     background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact_cont {
+    width: 90%;
+    height: 80%;
+    background-color: #1b4d3e;
+    border-radius: 1.5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0.1vw 0.1vw 3vw grey;
+}
+
+#contact_socials {
+    width: 10%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.social {
+    width: 40%;
+    height: 9%;
+    margin-top: 15%;
+    margin-left: 10%;
+    cursor: pointer;
+}
+
+.social>img {
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+
+.social>img:hover {
+    opacity: 1;
+}
+
+#contact_body {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#contact_image {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    border-bottom-right-radius: inherit;
+
+}
+
+#contact_body>form {
+    width: 100%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#contact_body>form>h2 {
+    width: 100%;
+    height: 10%;
+    font-size: 4vw;
+    color: white;
+    align-items: center;
+}
+
+#contact_body>form>h2>strong {
+    color: #e9ffdb;
+}
+
+#contact_body>form>p {
+    width: 100%;
+    font-size: 2vw;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#form_cont_name {
+    width: 100%;
+    height: 15%;
+    font-size: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#name_input {
+    width: 100%;
+    height: 50%;
+    border: none;
+    background-color: #e9ffdb;
+    border-radius: 1vw;
+}
+
+#name_input:focus {
+    outline: none;
+}
+
+#form_cont_name>label {
+    width: 100%;
+    height: 20%;
+}
+
+#form_cont_email {
+    width: 100%;
+    height: 16%;
+    font-size: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+#email {
+    width: 100%;
+    height: 50%;
+    border: none;
+    border-radius: 1vw;
+    background-color: #e9ffdb;
+}
+
+#email:focus {
+    outline: none;
+
+}
+
+#form_cont_message {
+    width: 100%;
+    height: 30%;
+    font-size: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+#message {
+    width: 100%;
+    height: 60%;
+    border: none;
+    border-radius: 1vw;
+    background-color: #e9ffdb;
+}
+
+#message:focus {
+    outline: none;
+
+}
+
+#form_cont_submit {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#form_cont_submit>button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border: none;
+    border-radius: 0.5vw;
+    height: 90%;
+    width: 40%;
+    font-size: 2.5vw;
+    background-color: #e9ffdb;
+}
+
+.button_span1 {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: thin solid;
+    align-items: center;
+    color: #1b4d3e;
+    font-size: 2vw;
+}
+
+.button_span2 {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: thin solid;
+    align-items: center;
+}
+
+.button_span2>img {
+    height: 65%;
+}
+
+#contact_img {
+    width: 100%;
+    height: 70%;
+    background-color: #ffffff;
+    border-top-left-radius: 40vw;
+    border-bottom-left-radius: 40vw;
+    border-top-right-radius: 40vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom-right-radius: inherit;
+
+}
+
+#contact_img>img {
+    width: 65%;
 }
 
 /* footer */
