@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles/all.css" />
+    <link rel="stylesheet" href="./pages_styles/jobs.css" />
     <title>NxT Job</title>
   </head>
   <body>
@@ -20,13 +20,387 @@
       </div>
       <div id="head_info">
         <a href="#index.html">Home</a>
-        <a href="#section1">Services</a>
-        <a href="#aboutUs">About</a>
+        <a href="#section1">Find Jobs</a>
+        <a href="#aboutUs">Categories</a>
         <a href="#contact_me">Contact Us</a>
       </div>
       <div id="head_start"></div>
     </header>
 
-    <!-- main -->
+
+    <!-- section -->
+    <section id="explore">
+      <h2>Explore Job Categories.</h2>
+      <div id="explore_cont">
+        <div id="explore_cont1">
+          <div class="explore_job_card" id="explore_job_card1">
+            <div class="explore_job_card_image">
+              <img src="/assets/images/frontend.jpg" alt="web security" />
+            </div>
+            <div class="explore_job_card_title">
+              <h2>Frontend Development</h2>
+            </div>
+            <div class="explore_job_card_desc">
+              <p>
+                Explore available opportunities that require HTML, CSS and
+                Javascript and their frameworks.
+              </p>
+            </div>
+            <div class="explore_job_card_buttons">
+              <!--  -->
+              <button class="explore_job_card_all" id="explore_job_card_all1">
+                View All
+              </button>
+            </div>
+          </div>
+
+          <div class="explore_job_card" id="explore_job_card2">
+            <div class="explore_job_card_image">
+              <img
+                src="/assets/images/machine_learning.jpg"
+                alt="web security"
+              />
+            </div>
+            <div class="explore_job_card_title">
+              <h2>Machine Learning</h2>
+            </div>
+            <div class="explore_job_card_desc">
+              <p>
+                Good in mathematics and computer programming? Discover available
+                opportunities and start creating models.
+              </p>
+            </div>
+            <div class="explore_job_card_buttons">
+              <button class="explore_job_card_all" id="explore_job_card_all2">
+                View All
+              </button>
+            </div>
+          </div>
+
+          <div class="explore_job_card" id="explore_job_card3">
+            <div class="explore_job_card_image">
+              <img src="/assets/images/fullstack.jpg" alt="web security" />
+            </div>
+            <div class="explore_job_card_title">
+              <h2>Fullstack Development</h2>
+            </div>
+            <div class="explore_job_card_desc">
+              <p>
+                For individuals who are comfortable handling the forntend or
+                backend side of the web.
+              </p>
+            </div>
+            <div class="explore_job_card_buttons">
+              <button class="explore_job_card_all" id="explore_job_card_all3">
+                View All
+              </button>
+            </div>
+          </div>
+        </div>
+        <div id="explore_cont2">
+          <div class="explore_job_card" id="explore_job_card4">
+            <div class="explore_job_card_image">
+              <img src="/assets/images/mobile_dev.jpg" alt="web security" />
+            </div>
+            <div class="explore_job_card_title">
+              <h2>Mobile Development</h2>
+            </div>
+            <div class="explore_job_card_desc">
+              <p>
+                Help design a variety of apps ranging from gaming apps to
+                eductaional apps.
+              </p>
+            </div>
+            <div class="explore_job_card_buttons">
+              <button class="explore_job_card_all" id="explore_job_card_all4">
+                View All
+              </button>
+            </div>
+          </div>
+
+          <div class="explore_job_card" id="explore_job_card5">
+            <div class="explore_job_card_image">
+              <img src="/assets/images/web_security.jpg" alt="web security" />
+            </div>
+            <div class="explore_job_card_title">
+              <h2>Backend Development</h2>
+            </div>
+            <div class="explore_job_card_desc">
+              <p>
+                Work on the server side of things and help design on what the
+                client cant see.
+              </p>
+            </div>
+            <div class="explore_job_card_buttons">
+              <button class="explore_job_card_all" id="explore_job_card_all5">
+                View All
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section find job -->
+
+    <section id="search">
+      <p>Not finding what you are looking for?</p>
+      <h2>Search, Find & Apply</h2>
+      <form id="search_info">
+        <span
+          ><input
+            type="text"
+            placeholder="Job title or Keyword"
+            id="job_search_value"
+        /></span>
+        <button type="submit" id="applySubmit">Search</button>
+      </form>
+      <span class="close1"> &times; </span>
+    </section>
+
+    <!-- section results -->
+    <section id="results">
+      <div class="category_card">
+        <div class="category_card_heading">
+          <p class="category_card_heading1">Frontend Developer</p>
+          <p class="category_card_heading2">Airwings Technologies</p>
+        </div>
+        <p class="category_card_body">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+          tempore, modi in odit enim libero.
+        </p>
+        <div class="category_card_info">
+          <span class="body_job_info_span"> Contract </span>
+          <span class="body_job_info_span"> Contract </span>
+          <span class="body_job_info_span"> Contract </span>
+        </div>
+        <div class="category_card_footer">
+          <a href="#" class="category_card_learn_more">Learn More</a>
+          <button class="category_card_image">
+            <img src="/assets/images/save-instagram-outline.png" alt="save" />
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- section recommendations -->
+    <h2 id="freelance_heading">Related freelance jobs.</h2>
+    <section id="recommend">
+      <div id="recommend_cont1">
+        <div class="category_card">
+          <div class="category_card_heading">
+            <p class="category_card_heading1">Frontend Developer</p>
+            <p class="category_card_heading2">Airwings Technologies</p>
+          </div>
+          <p class="category_card_body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+            tempore, modi in odit enim libero.
+          </p>
+          <div class="category_card_info">
+            <span class="body_job_info_span"> Contract </span>
+            <span class="body_job_info_span"> Contract </span>
+            <span class="body_job_info_span"> Contract </span>
+          </div>
+          <div class="category_card_footer">
+            <a href="#" class="category_card_learn_more">Learn More</a>
+            <button class="category_card_image">
+              <img src="/assets/images/save-instagram-outline.png" alt="save" />
+            </button>
+          </div>
+        </div>
+
+        <div class="category_card">
+          <div class="category_card_heading">
+            <p class="category_card_heading1">Frontend Developer</p>
+            <p class="category_card_heading2">Airwings Technologies</p>
+          </div>
+          <p class="category_card_body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+            tempore, modi in odit enim libero.
+          </p>
+          <div class="category_card_info">
+            <span class="body_job_info_span"> Contract </span>
+            <span class="body_job_info_span"> Contract </span>
+            <span class="body_job_info_span"> Contract </span>
+          </div>
+          <div class="category_card_footer">
+            <a href="#" class="category_card_learn_more">Learn More</a>
+            <button class="category_card_image">
+              <img src="/assets/images/save-instagram-outline.png" alt="save" />
+            </button>
+          </div>
+        </div>
+
+        <div class="category_card">
+          <div class="category_card_heading">
+            <p class="category_card_heading1">Frontend Developer</p>
+            <p class="category_card_heading2">Airwings Technologies</p>
+          </div>
+          <p class="category_card_body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+            tempore, modi in odit enim libero.
+          </p>
+          <div class="category_card_info">
+            <span class="body_job_info_span"> Contract </span>
+            <span class="body_job_info_span"> Contract </span>
+            <span class="body_job_info_span"> Contract </span>
+          </div>
+          <div class="category_card_footer">
+            <a href="#" class="category_card_learn_more">Learn More</a>
+            <button class="category_card_image">
+              <img src="/assets/images/save-instagram-outline.png" alt="save" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <h2 id="courses_heading">Related Courses</h2>
+    <div id="recommend_cont2">
+      <div class="category_card">
+        <div class="category_card_heading">
+          <p class="category_card_heading1">Frontend Developer</p>
+          <p class="category_card_heading2">Airwings Technologies</p>
+        </div>
+        <p class="category_card_body">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+          tempore, modi in odit enim libero.
+        </p>
+        <div class="category_card_info">
+          <span class="body_job_info_span"> Contract </span>
+          <span class="body_job_info_span"> Contract </span>
+          <span class="body_job_info_span"> Contract </span>
+        </div>
+        <div class="category_card_footer">
+          <a href="#" class="category_card_learn_more">Learn More</a>
+          <button class="category_card_image">
+            <img src="/assets/images/save-instagram-outline.png" alt="save" />
+          </button>
+        </div>
+      </div> <div class="category_card">
+        <div class="category_card_heading">
+          <p class="category_card_heading1">Frontend Developer</p>
+          <p class="category_card_heading2">Airwings Technologies</p>
+        </div>
+        <p class="category_card_body">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+          tempore, modi in odit enim libero.
+        </p>
+        <div class="category_card_info">
+          <span class="body_job_info_span"> Contract </span>
+          <span class="body_job_info_span"> Contract </span>
+          <span class="body_job_info_span"> Contract </span>
+        </div>
+        <div class="category_card_footer">
+          <a href="#" class="category_card_learn_more">Learn More</a>
+          <button class="category_card_image">
+            <img src="/assets/images/save-instagram-outline.png" alt="save" />
+          </button>
+        </div>
+      </div> <div class="category_card">
+        <div class="category_card_heading">
+          <p class="category_card_heading1">Frontend Developer</p>
+          <p class="category_card_heading2">Airwings Technologies</p>
+        </div>
+        <p class="category_card_body">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+          tempore, modi in odit enim libero.
+        </p>
+        <div class="category_card_info">
+          <span class="body_job_info_span"> Contract </span>
+          <span class="body_job_info_span"> Contract </span>
+          <span class="body_job_info_span"> Contract </span>
+        </div>
+        <div class="category_card_footer">
+          <a href="#" class="category_card_learn_more">Learn More</a>
+          <button class="category_card_image">
+            <img src="/assets/images/save-instagram-outline.png" alt="save" />
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- contact form -->
+    <section id="contact_me">
+      <div id="contact_cont">
+        <div id="contact_socials">
+          <a
+            class="social"
+            href="https://github.com/MokuaEnock"
+            target="_blank"
+            rel="noopener"
+          >
+            <img
+              src="/assets/images/github (1).png"
+              alt="github"
+              target="_blank"
+              rel="noopener"
+            />
+          </a>
+          <a
+            class="social"
+            href="https://twitter.com/254_enok"
+            target="_blank"
+            rel="noopener"
+          >
+            <img src="/assets/images/twitter (1).png" alt="twitter" />
+          </a>
+          <a
+            class="social"
+            href="https://www.instagram.com/enok_254/"
+            target="_blank"
+            rel="noopener"
+          >
+            <img src="/assets/images/instagram.png" alt="instagram" />
+          </a>
+          <a
+            class="social"
+            href="https://www.linkedin.com/in/enockmokua/"
+            target="_blank"
+            rel="noopener"
+          >
+            <img src="/assets/images/linkedin (1).png" alt="linkedin" />
+          </a>
+        </div>
+        <div id="contact_body">
+          <form>
+            <h2>Contact<strong> Us</strong></h2>
+            <p>We value your feedback.</p>
+            <div id="form_cont_name">
+              <label for="name_input">Your Name</label>
+              <input type="text" name="name" id="name_input" />
+            </div>
+
+            <div id="form_cont_email">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" />
+            </div>
+
+            <div id="form_cont_message">
+              <label for="message">Your Message</label>
+              <textarea type="text" id="message" rows="4" cols="50"> </textarea>
+            </div>
+            <div id="form_cont_submit">
+              <button type="submit">
+                <span class="button_span1"> Message </span>
+                <span class="button_span2">
+                  <img src="/assets/images/right-up.png" alt="" />
+                </span>
+              </button>
+            </div>
+          </form>
+        </div>
+        <div id="contact_image">
+          <div id="contact_img">
+            <img
+              src="/assets/images/undraw_letter_re_8m03.svg"
+              alt="illustration"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer></footer>
   </body>
 </html>
