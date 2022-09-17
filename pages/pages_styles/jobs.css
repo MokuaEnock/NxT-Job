@@ -66,3 +66,61 @@ header a:hover {
     height: 100%;
 
 }
+
+
+/* main section ================================== */
+
+main {
+    width: 100%;
+    height: 45.5vw;
+    background: repeating-linear-gradient(90deg,
+            #e9ffdb,
+            #e9ffdb .1vw,
+            #1b4d3e .1vw,
+            #1b4d3e 10vw);
+}
+
+
+/* categories ========================================*/
+#categories {
+    width: 100%;
+    height: 40vw;
+    background-color: white;
+}
+
+/* find job =======================================*/
+#search {
+    width: 100%;
+    height: 40vw;
+}
+
+
+/* results ====================================*/
+#results {
+    width: 100%;
+    height: 40vw;
+    background-color: white;
+}
+
+
+/*  recommendations =================================*/
+
+#recommend {
+    width: 100%;
+    height: 40vw;
+}
+
+/* contact form */
+
+#contact {
+    width: 100%;
+    height: 40vw;
+    background-color: white;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    height: 20vw;
+    background-color: #1b4d3e;
+}
