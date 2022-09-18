@@ -29,7 +29,7 @@
     </header>
 
     <!-- main -->
-    <canvas>
+
     <main>
       <div class="main_cont1">
         <div>
@@ -61,7 +61,6 @@
         </div>
       </div>
     </main>
-  </canvas>
 
     <!-- section -->
     <div id="jobs_heading" class="headings">
@@ -373,6 +372,10 @@
     <!-- footer -->
     <footer></footer>
 
-    <script src="./pages_styles/all.js"></script>
+    <script type="module"src="./pages_styles/all.js"></script>
+    <script type="module">
+      // note jsdelivr.net does not automatically minify .mjs
+      import { Base64 } from "https://cdn.jsdelivr.net/npm/js-base64@3.7.2/base64.mjs";
+    </script>
   </body>
 </html>
