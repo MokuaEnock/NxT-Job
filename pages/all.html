@@ -10,6 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./pages_styles/all.scss" />
     <link rel="stylesheet" href="./pages_styles/all.css" />
     <title>NxT Job</title>
   </head>
@@ -28,6 +29,7 @@
     </header>
 
     <!-- main -->
+
     <main>
       <div class="main_cont1">
         <div>
@@ -369,5 +371,11 @@
     </section>
     <!-- footer -->
     <footer></footer>
+
+    <script type="module"src="./pages_styles/all.js"></script>
+    <script type="module">
+      // note jsdelivr.net does not automatically minify .mjs
+      import { Base64 } from "https://cdn.jsdelivr.net/npm/js-base64@3.7.2/base64.mjs";
+    </script>
   </body>
 </html>
