@@ -96,3 +96,32 @@ function jobCardArray(element) {
   );
 }
 
+// create array of job category buttons
+category_buttons = new Array();
+category_buttons.push(
+  exploreJobCategoryButton1,
+  exploreJobCategoryButton2,
+  exploreJobCategoryButton3,
+  exploreJobCategoryButton4,
+  exploreJobCategoryButton5
+);
+
+/* category_buttons.forEach((element) => {
+  console.log(element);
+});
+ */
+
+function fname(category_buttons) {
+  for (let i of category_buttons) {
+    console.log(i);
+  }
+}
+fname(category_buttons);
+
+exploreJobCategoryButton1.addEventListener("click", () => {
+  if (exploreJobCategoryButton1.style.display == !"none") {
+    exploreJobCategoryButton1 === "flex";
+  } else {
+    exploreJobCategoryButton1.style.display == "none";
+  }
+});
