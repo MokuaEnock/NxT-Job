@@ -6,8 +6,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <BrowserRouter>
-      <Navbar />
-      <Landing />
+      {/* <Navbar />
+      <Landing /> */}
       {/* <Routes>
         <Route path="/login" />
         <Route path="/" element={}/>
