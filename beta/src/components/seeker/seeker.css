@@ -3,4 +3,21 @@
     height: 51vw;
     border: thin solid;
     margin-top: .2vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#seeker-home {
+    width: 90%;
+    height: 100%;
+    border: thin solid #1b4d3e;
+
+}
+
+#aside-seeker-bar {
+    width: 10%;
+    height: 100%;
+    border: thin solid #1b4d3e;
 }
