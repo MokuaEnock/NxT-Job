@@ -1,6 +1,7 @@
+import "./seeker.css";
 import AsideSeeker from "./asidebar";
 import Seeker from "./home";
 
 export default function SeekerView() {
-  return <></>;
+  return <section className="seeker-view"></section>;
 }
