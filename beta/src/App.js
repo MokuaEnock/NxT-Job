@@ -7,6 +7,7 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
+      <Landing />
       {/* <Routes>
         <Route path="/login" />
         <Route path="/" element={}/>
