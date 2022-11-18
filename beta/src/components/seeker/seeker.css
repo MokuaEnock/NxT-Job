@@ -49,6 +49,8 @@
 }
 
 #seeker-job-results {
+    list-style: none;
+    overflow-y: scroll;
     width: 35%;
     height: 100%;
     background-color: #1b4d3e;
@@ -58,4 +60,13 @@
     width: 65%;
     height: 100%;
     background-color: white;
+}
+
+.seeker-job-item {
+    margin-left: .2vw;
+    width: 98%;
+    border-radius: .5vw;
+    margin-top: 0.5vw;
+    height: 15vw;
+    background-color: #e9ffdb;
 }

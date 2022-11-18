@@ -11,7 +11,12 @@ export default function Seeker() {
     <section id="seeker-home-all">
       <Form />
       <section id="seeker-results">
-        <ul id="seeker-job-results"></ul>
+        <ul id="seeker-job-results">
+          <SeekerJobItem />
+          <SeekerJobItem />
+          <SeekerJobItem />
+          <SeekerJobItem />
+        </ul>
         <div id="seeker-job-view"></div>
       </section>
     </section>
