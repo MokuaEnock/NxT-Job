@@ -1,6 +1,25 @@
 export default function Seeker() {
   function Form() {
-    return <form id="seeker-search"></form>;
+    return (
+      <form id="seeker-search">
+        <div>Search for your next job.</div>
+        <div>
+          <label className="search-input">
+            <span>What</span>
+            <input type="text" />
+          </label>
+
+          <label className="search-input">
+            <span>Where</span>
+            <input type="text" />
+          </label>
+
+          <button type="Submit" id="search-submit">
+            Search
+          </button>
+        </div>
+      </form>
+    );
   }
 
   function SeekerJobItem() {
