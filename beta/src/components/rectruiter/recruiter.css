@@ -1,0 +1,100 @@
+#recruiter {
+    border: thin solid #1b4d3e;
+    background-color: #e9ffdb;
+    width: 100%;
+    height: 45vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#recruiter-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 90%;
+    border: thin solid #1b4d3e;
+}
+
+#recruiter-search {
+    border: thin solid;
+    width: 70%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#recruiter-search>div {
+    height: 50%;
+    width: 100%;
+    font-size: 1.7vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.search-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 45%;
+    font-size: 1.5vw;
+    height: 70%;
+    border: thin solid #1b4d3e;
+}
+
+.search-input>span {
+    background-color: #1b4d3e;
+    color: #e9ffdb;
+    border: thin solid transparent;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+input:focus {
+    outline: thin solid #1b4d3e;
+}
+
+.search-input>input {
+    font-size: 1.5vw;
+    width: 70%;
+    height: 100%;
+    border: thin solid transparent;
+}
+
+input {
+    text-align: center;
+}
+
+#recruiter-results {
+    height: 80%;
+    width: 100%;
+    border: thin solid;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#seeker-list {
+    width: 35%;
+    height: 100%;
+    border: thin solid #1b4d3e;
+
+}
+
+#seeker-view {
+    width: 65%;
+    height: 100%;
+}

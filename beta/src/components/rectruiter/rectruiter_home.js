@@ -1,3 +1,3 @@
 export default function RecruiterHome() {
-  return <></>;
+  return <section id="recruiter-home">khdhhdhdhd</section>;
 }
