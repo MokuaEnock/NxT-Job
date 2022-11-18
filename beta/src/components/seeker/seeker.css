@@ -41,7 +41,6 @@
 #seeker-search {
     width: 70%;
     height: 20%;
-    border: thin solid #1b4d3e;
     display: flex;
     flex-direction: column;
     align-items: center;
