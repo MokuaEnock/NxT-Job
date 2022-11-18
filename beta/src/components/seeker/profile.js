@@ -1,3 +1,5 @@
 export default function SeekerProfile() {
-  return <section id="seeker-profile"></section>;
+  return <section id="seeker-profile">
+    profile
+  </section>;
 }

@@ -1,3 +1,3 @@
-export default function SeekerNotif(){
-    return <section id="seeker"></section>
+export default function SeekerNotif() {
+  return <section id="seeker">Notifications</section>;
 }

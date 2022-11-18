@@ -1,3 +1,3 @@
 export default function SeekerMessage() {
-  return <section id="seeker-message"></section>;
+  return <section id="seeker-message">message</section>;
 }
